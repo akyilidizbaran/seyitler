@@ -1,0 +1,5 @@
+[
+  { "username": "yonetici", "display_name": "Yönetici", "is_admin": true },
+  { "username": "kullanici1", "display_name": "Kullanıcı 1" },
+  { "username": "kullanici2", "display_name": "Kullanıcı 2" }
+]

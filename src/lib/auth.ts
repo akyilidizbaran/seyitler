@@ -11,7 +11,7 @@ export const getUser = cache(async (): Promise<SessionUser | null> => {
   const token = (await cookies()).get(SESSION_COOKIE)?.value;
   const id = await verifySession(token);
   if (!id) return null;
-  const [user] = await sql<SessionUser[]>`select id, username, display_name, is_admin from users where id = ${id}`;
+  const [user] = await sql<SessionUser[]>`select id, username, display_name, is_admin, password_changed_at from users where id = ${id}`;
   return user ?? null;
 });
 

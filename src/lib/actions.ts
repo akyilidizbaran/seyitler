@@ -203,3 +203,26 @@ export async function saveProfile(_prev: FormState, formData: FormData): Promise
   revalidatePath("/", "layout");
   redirect("/sayfam");
 }
+
+// ---------- Şifre ----------
+
+/** Kullanıcı sadece KENDİ şifresini, mevcut şifresini doğrulayarak değiştirir. Admin başkasının şifresini değiştiremez. */
+export async function changePassword(_prev: FormState, formData: FormData): Promise<FormState> {
+  const user = await requireUser();
+  const current = String(formData.get("current") ?? "");
+  const next = String(formData.get("next") ?? "");
+  const repeat = String(formData.get("repeat") ?? "");
+  if (next.length < 8) return { error: "Yeni şifre en az 8 karakter olmalı." };
+  if (next !== repeat) return { error: "Yeni şifreler eşleşmiyor." };
+  if (next === current) return { error: "Yeni şifre eskisiyle aynı olamaz." };
+  if (next.toLowerCase().includes(user.username)) return { error: "Şifre kullanıcı adını içermesin." };
+
+  const [row] = await sql<{ password_hash: string }[]>`select password_hash from users where id = ${user.id}`;
+  if (!row || !(await bcrypt.compare(current, row.password_hash))) return { error: "Mevcut şifre hatalı." };
+
+  await sql`
+    update users set password_hash = ${await bcrypt.hash(next, 12)}, password_changed_at = now() where id = ${user.id}
+  `;
+  revalidatePath("/", "layout");
+  return { ok: true };
+}

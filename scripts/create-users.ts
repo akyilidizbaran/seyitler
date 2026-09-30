@@ -45,9 +45,12 @@ for (const u of users) {
     continue;
   }
   const password = u.password ?? generatePassword();
-  if (password.length < 10) {
-    console.error(`✗ ${username}: şifre en az 10 karakter olmalı.`);
+  if (password.length < 6) {
+    console.error(`✗ ${username}: şifre en az 6 karakter olmalı.`);
     continue;
+  }
+  if (u.password && password.length < 10) {
+    console.warn(`! ${username}: verilen şifre kısa/tahmin edilebilir; kullanıcı ilk girişte değiştirmeli (sitede uyarı gösterilir).`);
   }
   await sql`
     insert into users (username, display_name, password_hash, is_admin)

@@ -16,7 +16,8 @@ Türkiye / yurt dışı / uzaktan ayrımı kategori değil, ayrı bir **Bölge**
 - **Kişisel sayfa (`/sayfam`):** Profil (hakkımda, hedefler, ilgi alanları, CV/GitHub/LinkedIn), takip listesi
   (*İlgileniyorum / Başvurdum / Sonuçlandı / Geçtim*) ve fırsatlara özel notlar. Herkes kendi sayfasını düzenler.
 - **Admin:** Admin (`/kisiler`) herkesin kişisel sayfasını **salt okunur** görür. Diğer kullanıcılar birbirinin sayfasını göremez.
-- **Sabit kullanıcılar:** Kayıt ekranı yok. Kullanıcı adı ve şifreler yönetici tarafından bir kez oluşturulur ve değişmez.
+- **Sabit kullanıcılar:** Kayıt ekranı yok. Hesapları yönetici oluşturur; herkes kendi şifresini *Sayfam → Şifre değiştir*'den
+  değiştirebilir. İlk şifresini değiştirmeyenlere sitede uyarı gösterilir.
 
 Teknoloji: Next.js 16 (App Router, Server Actions) · Postgres · Tailwind CSS 4 · Anthropic Claude API · Vercel · GitHub Actions
 

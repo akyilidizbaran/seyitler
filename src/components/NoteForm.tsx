@@ -7,6 +7,8 @@ export function NoteForm({ id, note }: { id: number; note: string | null | undef
   const [state, action, pending] = useActionState(saveNote.bind(null, id), undefined);
   return (
     <form
+      // JS yüklenmeden gönderilirse alanlar URL'ye (GET) düşmesin.
+      method="post"
       // action={...} yerine onSubmit: React 19 başarısız gönderimden sonra formu sıfırlamasın.
       onSubmit={(e) => {
         e.preventDefault();

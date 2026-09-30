@@ -137,7 +137,7 @@ export async function refreshRuns(limit = 20) {
 
 export async function getProfile(username: string): Promise<Profile | null> {
   const [row] = await sql<Profile[]>`
-    select id, username, display_name, is_admin, bio, goals, interests, cv_url, github_url, linkedin_url, website_url,
+    select id, username, display_name, is_admin, password_changed_at, bio, goals, interests, cv_url, github_url, linkedin_url, website_url,
            profile_updated_at, last_seen_at
     from users where username = ${username}
   `;
@@ -167,7 +167,7 @@ export type UserSummary = SessionUser & {
 export async function listUsersWithStats(): Promise<UserSummary[]> {
   const today = todayIstanbul();
   return sql<UserSummary[]>`
-    select u.id, u.username, u.display_name, u.is_admin, u.last_seen_at,
+    select u.id, u.username, u.display_name, u.is_admin, u.password_changed_at, u.last_seen_at,
       count(us.*) filter (where us.status = 'interested')::int as interested,
       count(us.*) filter (where us.status = 'applied')::int as applied,
       count(us.*) filter (where us.status = 'done')::int as done,

@@ -18,8 +18,10 @@ Sitenin asıl değeri **içeriğin güncel ve doğru olması**. Kod değişiklik
 
 Bu kurallar kullanıcının açık kararlarıdır. Kullanıcı açıkça istemedikçe değiştirme:
 
-1. **Kayıt ekranı yok, kullanıcılar sabit.** Kullanıcılar sadece `npm run users:create` ile oluşturulur. Var olan kullanıcının
-   şifresi değiştirilmez. Şifre değiştirme veya sıfırlama ekranı ekleme.
+1. **Kayıt ekranı yok, kullanıcılar sabit.** Kullanıcılar sadece `npm run users:create` ile oluşturulur; bu betik var olan
+   kullanıcının şifresine dokunmaz. Her kullanıcı **sadece kendi** şifresini, mevcut şifresini girerek `/sayfam/sifre`'den
+   değiştirebilir (`password_changed_at` null ise sitede uyarı çıkar). Admin dahil kimse başkasının şifresini değiştiremez;
+   şifre sıfırlama ekranı ekleme.
 2. **Kişisel sayfa ve takip özeldir; admin sadece okur.** Profil (`users.bio`, `goals`, linkler…), takip durumları ve notlar
    (`user_status`) sadece sahibine ve admine (`users.is_admin = true`) gösterilir. Diğer kullanıcılara asla gösterilmez.
    Admin başkalarının sayfasını **salt okunur** görür (`/kisiler`, `/kisiler/[username]`); başkası adına takip, not veya profil
@@ -114,7 +116,7 @@ src/app/giris/               Giriş sayfası
 src/app/(app)/               Giriş gerektiren sayfalar; layout.tsx menü ve bildirim sayacını içerir
   page.tsx                   Panel
   firsatlar/                 Liste (filtreler URL parametreleriyle), detay, yeni, düzenle
-  sayfam/                    Kişisel sayfa (profil + takip + notlar) ve profil düzenleme; /takibim buraya yönlenir
+  sayfam/                    Kişisel sayfa (profil + takip + notlar), profil düzenleme, şifre değiştirme; /takibim buraya yönlenir
   kisiler/                   Sadece admin: kullanıcı listesi ve salt okunur kişisel sayfalar (requireAdmin → değilse 404)
   onay/ bildirimler/ guncellemeler/
 src/components/              UI bileşenleri (PersonalPage server component; TrackButtons, StatusActions, OpportunityForm, ProfileForm… client)

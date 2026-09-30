@@ -86,7 +86,14 @@ export type Opportunity = {
   my_note?: string | null;
 };
 
-export type SessionUser = { id: number; username: string; display_name: string; is_admin: boolean };
+export type SessionUser = {
+  id: number;
+  username: string;
+  display_name: string;
+  is_admin: boolean;
+  /** null → kullanıcı ilk (yöneticinin verdiği) şifresini henüz değiştirmedi */
+  password_changed_at: Date | null;
+};
 
 /** Kişisel sayfa bilgileri. Sadece sahibi ve admin görür; sadece sahibi düzenler. */
 export type Profile = SessionUser & {

@@ -10,6 +10,8 @@ export function OpportunityForm({ opp }: { opp?: Opportunity }) {
 
   return (
     <form
+      // JS yüklenmeden gönderilirse alanlar URL'ye (GET) düşmesin.
+      method="post"
       // action={...} yerine onSubmit: React 19 başarısız gönderimden sonra formu sıfırlamasın.
       onSubmit={(e) => {
         e.preventDefault();

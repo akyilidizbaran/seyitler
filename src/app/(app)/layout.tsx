@@ -46,6 +46,16 @@ export default async function AppLayout({ children }: LayoutProps<"/">) {
           </div>
         </div>
       </header>
+      {!user.password_changed_at && (
+        <div className="border-b border-warn/30 bg-warn-soft">
+          <p className="mx-auto max-w-6xl px-4 py-2 text-sm text-warn">
+            Hâlâ ilk verilen şifreyi kullanıyorsun.{" "}
+            <Link href="/sayfam/sifre" className="font-medium underline underline-offset-2">
+              Şifreni değiştir
+            </Link>
+          </p>
+        </div>
+      )}
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 pt-6 pb-24 sm:pb-6">{children}</main>
       <Link href="/firsatlar/yeni" className="btn-primary fixed right-4 bottom-4 rounded-full px-4 py-3 shadow-lg sm:hidden">
         + Ekle

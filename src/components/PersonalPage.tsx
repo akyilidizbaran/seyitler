@@ -35,9 +35,14 @@ export async function PersonalPage({ profile, mode }: { profile: Profile; mode: 
           </p>
         </div>
         {owner && (
-          <Link href="/sayfam/duzenle" className="btn-ghost">
-            Profilimi düzenle
-          </Link>
+          <div className="flex gap-2">
+            <Link href="/sayfam/duzenle" className="btn-ghost">
+              Profilimi düzenle
+            </Link>
+            <Link href="/sayfam/sifre" className="btn-ghost">
+              Şifre değiştir
+            </Link>
+          </div>
         )}
       </header>
 

@@ -19,6 +19,8 @@ alter table users add column if not exists github_url text;
 alter table users add column if not exists linkedin_url text;
 alter table users add column if not exists website_url text;
 alter table users add column if not exists profile_updated_at timestamptz;
+-- (2026-09-30) Herkes kendi şifresini değiştirebilir; null = hâlâ yöneticinin verdiği ilk şifre (uyarı gösterilir).
+alter table users add column if not exists password_changed_at timestamptz;
 
 create table if not exists opportunities (
   id              serial primary key,

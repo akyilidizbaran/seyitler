@@ -12,6 +12,14 @@ const STATUS_FILTERS = {
   closed: "Kapananlar (arşiv)",
 } as const;
 
+// Son tarihi olmayan (rolling / tarihi açıklanmamış) ilanlar tarihe göre sıralı listede en alta düşüp gözden kaçıyordu;
+// bu yüzden ayrı sekmede gösteriliyorlar.
+const TABS = {
+  tarihli: "Son tarihli",
+  tarihsiz: "Tarihsiz / rolling",
+} as const;
+type Tab = keyof typeof TABS;
+
 export default async function OpportunitiesPage(props: PageProps<"/firsatlar">) {
   const user = await requireUser();
   const sp = await props.searchParams;
@@ -23,18 +31,45 @@ export default async function OpportunitiesPage(props: PageProps<"/firsatlar">) 
     q: str(sp.q),
     track: str(sp.takip),
   };
-  const items = await listOpportunities(user.id, filters);
+  const tab: Tab = str(sp.sekme) === "tarihsiz" ? "tarihsiz" : "tarihli";
+  const all = await listOpportunities(user.id, filters);
+  const dated = all.filter((o) => o.deadline);
+  // Tarihsizlerde önce yakında açılacaklar (açılış tarihine göre), sonra en son güncellenenler.
+  const undated = all
+    .filter((o) => !o.deadline)
+    .sort(
+      (a, b) =>
+        (a.opens_at ?? "9999").localeCompare(b.opens_at ?? "9999") ||
+        new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime(),
+    );
+  const items = tab === "tarihli" ? dated : undated;
+
+  // Sekme linkleri mevcut filtreleri korur.
+  const tabHref = (t: Tab) => {
+    const params = new URLSearchParams();
+    for (const [k, v] of Object.entries({ q: filters.q, kategori: filters.category, bolge: filters.region, takip: filters.track })) {
+      if (v) params.set(k, v);
+    }
+    if (filters.status !== "acik") params.set("durum", filters.status);
+    if (t !== "tarihli") params.set("sekme", t);
+    const qs = params.toString();
+    return `/firsatlar${qs ? `?${qs}` : ""}`;
+  };
 
   return (
     <div className="flex flex-col gap-5">
       <div className="flex flex-wrap items-end justify-between gap-2">
         <div>
           <h1 className="text-2xl font-semibold">Fırsatlar</h1>
-          <p className="text-sm text-muted">{items.length} sonuç · son tarihe göre sıralı</p>
+          <p className="text-sm text-muted">
+            {all.length} sonuç ·{" "}
+            {tab === "tarihli" ? "son tarihe göre sıralı, en acil üstte" : "önce yakında açılacaklar, sonra son güncellenenler"}
+          </p>
         </div>
       </div>
 
       <form className="card grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr_auto]">
+        {tab !== "tarihli" && <input type="hidden" name="sekme" value={tab} />}
         <div>
           <label className="label" htmlFor="q">
             Ara
@@ -91,15 +126,35 @@ export default async function OpportunitiesPage(props: PageProps<"/firsatlar">) 
         </div>
         <div className="flex items-end gap-2">
           <button className="btn-primary w-full">Filtrele</button>
-          <Link href="/firsatlar" className="btn-ghost">
+          <Link href={tab === "tarihli" ? "/firsatlar" : `/firsatlar?sekme=${tab}`} className="btn-ghost">
             Sıfırla
           </Link>
         </div>
       </form>
 
+      <nav className="flex gap-1 border-b border-border" aria-label="Son tarih durumu">
+        {(Object.keys(TABS) as Tab[]).map((t) => {
+          const count = t === "tarihli" ? dated.length : undated.length;
+          const active = t === tab;
+          return (
+            <Link
+              key={t}
+              href={tabHref(t)}
+              aria-current={active ? "page" : undefined}
+              className={`-mb-px flex items-center gap-2 border-b-2 px-3 py-2 text-sm font-medium transition ${
+                active ? "border-accent text-text" : "border-transparent text-muted hover:text-text"
+              }`}
+            >
+              {TABS[t]}
+              <span className="rounded-full bg-surface-2 px-2 text-xs tabular-nums text-muted">{count}</span>
+            </Link>
+          );
+        })}
+      </nav>
+
       {items.length === 0 ? (
         <p className="card p-8 text-center text-sm text-muted">
-          Bu filtrelere uyan fırsat yok.{" "}
+          {tab === "tarihli" ? "Bu filtrelere uyan son tarihli fırsat yok." : "Bu filtrelere uyan tarihsiz fırsat yok."}{" "}
           <Link href="/firsatlar/yeni" className="text-accent hover:underline">
             Yeni fırsat ekle
           </Link>

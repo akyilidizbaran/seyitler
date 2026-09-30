@@ -17,6 +17,8 @@ concurrency:
 
 jobs:
   refresh:
+    # Secret'lar eklenip Actions değişkeni REFRESH_ENABLED=true yapılana kadar çalışmaz (boşuna hata vermesin).
+    if: vars.REFRESH_ENABLED == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:

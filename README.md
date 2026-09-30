@@ -80,6 +80,7 @@ Repo → *Settings → Secrets and variables → Actions*:
 | --- | --- | --- |
 | Secret | `DATABASE_URL` | Vercel'deki ile aynı |
 | Secret | `ANTHROPIC_API_KEY` | Anthropic API anahtarı (yoksa sadece tarih ve link kontrolü yapılır) |
+| Variable | `REFRESH_ENABLED` | `true` (secret'ları ekledikten sonra; yoksa iş akışı atlanır) |
 | Variable (isteğe bağlı) | `ANTHROPIC_MODEL` | Varsayılan `claude-opus-5`. Daha ucuz tarama için `claude-sonnet-5` |
 
 İş akışı `.github/workflows/refresh.yml` her 3 günde bir İstanbul saatiyle 09:00'da çalışır. *Actions → Fırsat taraması →

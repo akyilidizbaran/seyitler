@@ -12,7 +12,7 @@
     "db:seed": "tsx --env-file-if-exists=.env.local scripts/seed.ts",
     "users:create": "tsx --env-file-if-exists=.env.local scripts/create-users.ts",
     "refresh": "tsx --env-file-if-exists=.env.local scripts/refresh.ts",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "data:check": "tsx scripts/check-data.ts"
   },
   "dependencies": {

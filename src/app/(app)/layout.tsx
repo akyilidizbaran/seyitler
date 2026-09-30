@@ -2,13 +2,14 @@ import Link from "next/link";
 import { requireUser } from "@/lib/auth";
 import { logout } from "@/lib/actions";
 import { sql } from "@/lib/db";
-import { notificationCount } from "@/lib/queries";
+import { markSeen, notificationCount } from "@/lib/queries";
 import { NavLinks } from "@/components/NavLinks";
 
 export default async function AppLayout({ children }: LayoutProps<"/">) {
   const user = await requireUser();
-  const [notif, [pending]] = await Promise.all([
+  const [notif, , [pending]] = await Promise.all([
     notificationCount(user.id),
+    markSeen(user.id).then(() => undefined),
     sql<{ n: number }[]>`select count(*)::int as n from opportunities where status = 'pending'`,
   ]);
 

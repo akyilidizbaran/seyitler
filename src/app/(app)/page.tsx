@@ -1,16 +1,15 @@
 import Link from "next/link";
 import { requireUser } from "@/lib/auth";
-import { dashboardStats, getLastSeen, newSince, urgentOpportunities } from "@/lib/queries";
+import { dashboardStats, unreadNotifications, urgentOpportunities } from "@/lib/queries";
 import { CATEGORIES, CATEGORY_GROUPS, TRACK_STATUSES, formatDate, type TrackStatus } from "@/lib/types";
 import { OpportunityCard } from "@/components/OpportunityCard";
 
 export default async function Dashboard() {
   const user = await requireUser();
-  const lastSeen = await getLastSeen(user.id);
   const [stats, urgent, fresh] = await Promise.all([
     dashboardStats(user.id),
     urgentOpportunities(user.id, 14),
-    newSince(user.id, lastSeen),
+    unreadNotifications(user.id, "new"),
   ]);
 
   return (
@@ -55,7 +54,7 @@ export default async function Dashboard() {
 
       {fresh.length > 0 && (
         <section>
-          <SectionHeader title="Son ziyaretinden beri eklenenler" hint={`${fresh.length} yeni kayıt`} href="/bildirimler" />
+          <SectionHeader title="Yeni eklenenler" hint={`${fresh.length} okunmamış · Bildirimler'den "Okudum" diyerek kapatabilirsin`} href="/bildirimler" />
           <div className="grid gap-3 md:grid-cols-2">
             {fresh.slice(0, 6).map((o) => (
               <OpportunityCard key={o.id} opp={o} />

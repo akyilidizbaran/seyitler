@@ -65,36 +65,48 @@ export async function urgentOpportunities(userId: number, days: number): Promise
   `;
 }
 
-export async function newSince(userId: number, since: Date): Promise<Opportunity[]> {
-  return sql<Opportunity[]>`
-    select ${oppColumns()}
-    from opportunities o
-    left join user_status us on us.opportunity_id = o.id and us.user_id = ${userId}
-    where o.created_at > ${since} and o.status in ('active','upcoming','pending')
-    order by o.created_at desc
-  `;
-}
-
-export async function getLastSeen(userId: number): Promise<Date> {
-  const [row] = await sql<{ last_seen_at: Date }[]>`select last_seen_at from users where id = ${userId}`;
-  return row?.last_seen_at ?? new Date(0);
-}
-
+/** Admin'in "Son görülme" bilgisi için; her sayfa açılışında güncellenir. */
 export async function markSeen(userId: number) {
   await sql`update users set last_seen_at = now() where id = ${userId}`;
 }
 
-export async function notificationCount(userId: number): Promise<number> {
-  const since = await getLastSeen(userId);
+export type NotificationKind = "deadline" | "new";
+
+// Bildirim kuralları (ikisi de "Okudum" denene kadar kalır):
+//  - deadline: açık, son tarihi 7 gün içinde, kullanıcının "Başvurdum/Sonuçlandı/Geçtim" demediği fırsatlar
+//  - new: kullanıcının hesabı açıldıktan sonra ve son 30 günde eklenen açık/yakında/onay bekleyen fırsatlar
+function unreadWhere(userId: number, kind: NotificationKind) {
   const today = todayIstanbul();
+  const base =
+    kind === "deadline"
+      ? sql`o.status = 'active' and o.deadline between ${today}::date and ${today}::date + 7
+            and (us.status is null or us.status = 'interested')`
+      : sql`o.status in ('active','upcoming','pending') and o.created_at > now() - interval '30 days'
+            and o.created_at > (select created_at from users where id = ${userId})`;
+  return sql`${base} and not exists (
+    select 1 from notification_reads nr where nr.user_id = ${userId} and nr.opportunity_id = o.id and nr.kind = ${kind}
+  )`;
+}
+
+export async function unreadNotifications(userId: number, kind: NotificationKind): Promise<Opportunity[]> {
+  return sql<Opportunity[]>`
+    select ${oppColumns()}
+    from opportunities o
+    left join user_status us on us.opportunity_id = o.id and us.user_id = ${userId}
+    where ${unreadWhere(userId, kind)}
+    order by ${kind === "deadline" ? sql`o.deadline` : sql`o.created_at desc`}
+  `;
+}
+
+export async function notificationCount(userId: number): Promise<number> {
   const [row] = await sql<{ n: number }[]>`
     select
       (select count(*) from opportunities o
          left join user_status us on us.opportunity_id = o.id and us.user_id = ${userId}
-         where o.status = 'active' and o.deadline between ${today}::date and ${today}::date + 7
-           and (us.status is null or us.status = 'interested'))
-    + (select count(*) from opportunities where created_at > ${since} and status in ('active','upcoming','pending'))
-      as n
+         where ${unreadWhere(userId, "deadline")})
+    + (select count(*) from opportunities o
+         left join user_status us on us.opportunity_id = o.id and us.user_id = ${userId}
+         where ${unreadWhere(userId, "new")}) as n
   `;
   return Number(row?.n ?? 0);
 }

@@ -89,3 +89,12 @@ create table if not exists refresh_runs (
   suggested   int not null default 0,
   log         text not null default ''
 );
+
+-- (2026-09-30) Bildirimler "Okudum" ile kapatılır. kind: 'deadline' (7 gün içinde kapanıyor) | 'new' (yeni eklendi).
+create table if not exists notification_reads (
+  user_id        int not null references users(id) on delete cascade,
+  opportunity_id int not null references opportunities(id) on delete cascade,
+  kind           text not null check (kind in ('deadline','new')),
+  read_at        timestamptz not null default now(),
+  primary key (user_id, opportunity_id, kind)
+);

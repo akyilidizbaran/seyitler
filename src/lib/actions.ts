@@ -7,6 +7,7 @@ import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { sql } from "./db";
 import { requireUser } from "./auth";
+import { unreadNotifications } from "./queries";
 import { SESSION_COOKIE, SESSION_DAYS, signSession } from "./session";
 import { CATEGORIES, TRACK_STATUSES, WORK_MODES, todayIstanbul } from "./types";
 
@@ -225,4 +226,30 @@ export async function changePassword(_prev: FormState, formData: FormData): Prom
   `;
   revalidatePath("/", "layout");
   return { ok: true };
+}
+
+// ---------- Bildirimler ----------
+
+export async function markNotificationRead(opportunityId: number, kind: "deadline" | "new") {
+  const user = await requireUser();
+  if (kind !== "deadline" && kind !== "new") return;
+  await sql`
+    insert into notification_reads (user_id, opportunity_id, kind) values (${user.id}, ${opportunityId}, ${kind})
+    on conflict do nothing
+  `;
+  revalidatePath("/", "layout");
+}
+
+export async function markAllNotificationsRead() {
+  const user = await requireUser();
+  const [deadline, fresh] = await Promise.all([
+    unreadNotifications(user.id, "deadline"),
+    unreadNotifications(user.id, "new"),
+  ]);
+  const rows = [
+    ...deadline.map((o) => ({ user_id: user.id, opportunity_id: o.id, kind: "deadline" })),
+    ...fresh.map((o) => ({ user_id: user.id, opportunity_id: o.id, kind: "new" })),
+  ];
+  if (rows.length) await sql`insert into notification_reads ${sql(rows)} on conflict do nothing`;
+  revalidatePath("/", "layout");
 }

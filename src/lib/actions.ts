@@ -253,3 +253,29 @@ export async function markAllNotificationsRead() {
   if (rows.length) await sql`insert into notification_reads ${sql(rows)} on conflict do nothing`;
   revalidatePath("/", "layout");
 }
+
+// ---------- Admine not ----------
+
+export async function createAdminNote(_prev: FormState, formData: FormData): Promise<FormState> {
+  const user = await requireUser();
+  const body = String(formData.get("body") ?? "").trim();
+  if (body.length < 3) return { error: "Notun çok kısa." };
+  if (body.length > 2000) return { error: "Not en fazla 2000 karakter olabilir." };
+  await sql`insert into admin_notes (user_id, body) values (${user.id}, ${body})`;
+  revalidatePath("/", "layout");
+  return { ok: true };
+}
+
+/** Sadece admin: notu kapatır (yapıldı / yapılmayacak) veya yeniden açar, isteğe bağlı cevap yazar. */
+export async function resolveAdminNote(id: number, status: "open" | "done" | "wontfix", reply: string) {
+  const user = await requireUser();
+  if (!user.is_admin) throw new Error("Bu işlem sadece admin içindir.");
+  if (!["open", "done", "wontfix"].includes(status)) return;
+  const text = reply.trim().slice(0, 2000) || null;
+  await sql`
+    update admin_notes set status = ${status}, admin_reply = ${text},
+      resolved_at = ${status === "open" ? null : sql`now()`}
+    where id = ${id}
+  `;
+  revalidatePath("/", "layout");
+}

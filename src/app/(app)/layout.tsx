@@ -2,15 +2,16 @@ import Link from "next/link";
 import { requireUser } from "@/lib/auth";
 import { logout } from "@/lib/actions";
 import { sql } from "@/lib/db";
-import { markSeen, notificationCount } from "@/lib/queries";
+import { markSeen, notificationCount, openAdminNoteCount } from "@/lib/queries";
 import { NavLinks } from "@/components/NavLinks";
 
 export default async function AppLayout({ children }: LayoutProps<"/">) {
   const user = await requireUser();
-  const [notif, , [pending]] = await Promise.all([
+  const [notif, , [pending], openNotes] = await Promise.all([
     notificationCount(user.id),
     markSeen(user.id).then(() => undefined),
     sql<{ n: number }[]>`select count(*)::int as n from opportunities where status = 'pending'`,
+    user.is_admin ? openAdminNoteCount() : Promise.resolve(0),
   ]);
 
   return (
@@ -35,6 +36,7 @@ export default async function AppLayout({ children }: LayoutProps<"/">) {
                 { href: "/sayfam", label: "Sayfam" },
                 { href: "/onay", label: "Onay", badge: pending.n },
                 { href: "/bildirimler", label: "Bildirimler", badge: notif },
+                { href: "/admine-not", label: user.is_admin ? "Notlar" : "Admine not", badge: openNotes },
                 ...(user.is_admin ? [{ href: "/kisiler", label: "Kişiler" }] : []),
               ]}
             />

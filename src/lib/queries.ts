@@ -193,3 +193,32 @@ export async function listUsersWithStats(): Promise<UserSummary[]> {
     order by u.display_name
   `;
 }
+
+// ---------- Admine not ----------
+
+export type AdminNote = {
+  id: number;
+  user_id: number;
+  username: string;
+  display_name: string;
+  body: string;
+  status: "open" | "done" | "wontfix";
+  admin_reply: string | null;
+  created_at: Date;
+  resolved_at: Date | null;
+};
+
+/** userId verilirse sadece o kullanıcının notları; verilmezse (admin) hepsi. Açık olanlar üstte. */
+export async function listAdminNotes(userId?: number): Promise<AdminNote[]> {
+  return sql<AdminNote[]>`
+    select n.id, n.user_id, u.username, u.display_name, n.body, n.status, n.admin_reply, n.created_at, n.resolved_at
+    from admin_notes n join users u on u.id = n.user_id
+    where ${userId === undefined ? sql`true` : sql`n.user_id = ${userId}`}
+    order by (n.status <> 'open'), n.created_at desc
+  `;
+}
+
+export async function openAdminNoteCount(): Promise<number> {
+  const [row] = await sql<{ n: number }[]>`select count(*)::int as n from admin_notes where status = 'open'`;
+  return row?.n ?? 0;
+}

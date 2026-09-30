@@ -16,6 +16,8 @@ Türkiye / yurt dışı / uzaktan ayrımı kategori değil, ayrı bir **Bölge**
 - **Kişisel sayfa (`/sayfam`):** Profil (hakkımda, hedefler, ilgi alanları, CV/GitHub/LinkedIn), takip listesi
   (*İlgileniyorum / Başvurdum / Sonuçlandı / Geçtim*) ve fırsatlara özel notlar. Herkes kendi sayfasını düzenler.
 - **Admin:** Admin (`/kisiler`) herkesin kişisel sayfasını **salt okunur** görür. Diğer kullanıcılar birbirinin sayfasını göremez.
+- **Admine not (`/admine-not`):** Kullanıcılar düzenlenmesini istedikleri şeyleri admine yazar; admin "Yapıldı / Yapılmayacak"
+  diye kapatıp cevap verir.
 - **Sabit kullanıcılar:** Kayıt ekranı yok. Hesapları yönetici oluşturur; herkes kendi şifresini *Sayfam → Şifre değiştir*'den
   değiştirebilir. İlk şifresini değiştirmeyenlere sitede uyarı gösterilir.
 

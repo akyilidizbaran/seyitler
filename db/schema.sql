@@ -98,3 +98,15 @@ create table if not exists notification_reads (
   read_at        timestamptz not null default now(),
   primary key (user_id, opportunity_id, kind)
 );
+
+-- (2026-09-30) "Admine not": kullanıcıların düzenleme istekleri. Kullanıcı sadece kendi notlarını, admin hepsini görür.
+create table if not exists admin_notes (
+  id          serial primary key,
+  user_id     int not null references users(id) on delete cascade,
+  body        text not null,
+  status      text not null default 'open' check (status in ('open','done','wontfix')),
+  admin_reply text,
+  created_at  timestamptz not null default now(),
+  resolved_at timestamptz
+);
+create index if not exists admin_notes_status_idx on admin_notes (status, created_at desc);

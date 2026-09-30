@@ -118,6 +118,7 @@ src/app/(app)/               Giriş gerektiren sayfalar; layout.tsx menü ve bil
   firsatlar/                 Liste (filtreler URL parametreleriyle), detay, yeni, düzenle
   sayfam/                    Kişisel sayfa (profil + takip + notlar), profil düzenleme, şifre değiştirme; /takibim buraya yönlenir
   kisiler/                   Sadece admin: kullanıcı listesi ve salt okunur kişisel sayfalar (requireAdmin → değilse 404)
+  admine-not/                Kullanıcıların admine düzenleme istekleri (admin_notes); kullanıcı kendi notlarını, admin hepsini görür ve kapatır
   onay/ bildirimler/ guncellemeler/
 src/components/              UI bileşenleri (PersonalPage server component; TrackButtons, StatusActions, OpportunityForm, ProfileForm… client)
 src/lib/types.ts             Kategoriler, durumlar, tipler, tarih yardımcıları (sunucu ve istemcide kullanılabilir)

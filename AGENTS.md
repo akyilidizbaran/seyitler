@@ -161,6 +161,7 @@ npm run db:seed [-- data/dosya.json]
 npm run dev           # http://localhost:3000
 npm run refresh -- --no-ai   # tarih ve link kontrolü (AI olmadan)
 npm run data:check    # data/*.json doğrulama
+npm run db:update -- dosya.json --by admin   # var olan kayıtlara düzeltme ([{id, fixes, reason}]); üretimde sadece kullanıcı isterse
 npm run typecheck && npm run lint && npm run build   # PR öncesi hepsi geçmeli
 ```
 

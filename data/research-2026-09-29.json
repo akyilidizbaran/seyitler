@@ -427,9 +427,9 @@
     "location": "Türkiye",
     "work_mode": "hibrit",
     "country": "Türkiye",
-    "deadline": "2026-10-08",
+    "deadline": "2026-10-07",
     "opens_at": null,
-    "deadline_note": "2026-2027 dönemi başvuruları 23 Eylül 2026'da başladı, 8 Ekim 2026'da sona eriyor (atp.sayzek.org.tr).",
+    "deadline_note": "Portalda 'Başvuru Bitiş: 08.10.2026 00:00' yazıyor, yani son gün 7 Ekim. Takım başvurularında üyeler bilgilerini kaydettikten sonra takım kaptanı tez konusu ve akademik danışman bilgilerini girip KVKK onayıyla 'Tamamla'ya basmalı; gönderildikten sonra değiştirilemez.",
     "apply_url": "https://atp.sayzek.org.tr",
     "source_url": "https://www.yok.gov.tr/tr/news/yuksekogretim-kurulu-ile-savunma-sanayii-baskanliginin-yapay-zeka-is-birligi-buyuyor-Icfgo",
     "description": "Öğrencilerin yapay zekâ proje/tez çalışmalarını savunma sanayii firmalarından atanan sektör mentorlarıyla yürüttüğü program; teknik eğitimler, kamplar, teknik geziler ve belirli koşullarla savunma sanayii firmalarında staj imkânı sunar.",
@@ -441,6 +441,6 @@
       "bitirme projesi",
       "mentorluk"
     ],
-    "verified_at": "2026-09-29"
+    "verified_at": "2026-10-03"
   }
 ]

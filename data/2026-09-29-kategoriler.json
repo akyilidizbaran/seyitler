@@ -132,7 +132,8 @@
       "danışmanlık",
       "llm"
     ],
-    "verified_at": "2026-09-29"
+    "verified_at": "2026-09-29",
+    "status": "closed"
   },
   {
     "title": "Business Analyst – New Graduate (Digital Channels / veri & yapay zekâ)",
@@ -288,7 +289,8 @@
       "yapay zeka",
       "son sınıf"
     ],
-    "verified_at": "2026-09-29"
+    "verified_at": "2026-09-29",
+    "status": "closed"
   },
   {
     "title": "Intern, PACS Strategic Initiatives & New Technologies (AI & veri)",
@@ -617,9 +619,9 @@
     "location": "Onna, Okinawa, Japonya",
     "work_mode": "yerinde",
     "country": "Japonya",
-    "deadline": "2026-09-30",
+    "deadline": "2026-10-10",
     "opens_at": null,
-    "deadline_note": "OpenReview'da poster özeti son tarihi 30 Eylül 2026; CV ve referanslar 10 Ekim 2026; kabul 1 Kasım 2026. Okul 1–12 Mart 2027.",
+    "deadline_note": "Resmî son başvuru tarihi 30 Eylül 2026'ydı (bu tarihe kadar yapılan başvurulara öncelik veriliyor). OpenReview başvuru sitesi 10 Ekim 2026'ya kadar açık; 30 Eylül sonrası 10 Ekim'e kadar yapılan başvurular kontenjana göre değerlendirilebilir. CV ve referanslar da 10 Ekim'e kadar. Kabul bildirimleri 1 Kasım 2026'da gönderilecek.",
     "apply_url": "https://oist.github.io/mlss2027okinawa/application.html",
     "source_url": "https://oist.github.io/mlss2027okinawa/application.html",
     "description": "Dünyanın en köklü ML yaz okulu serisinin 12 günlük Okinawa edisyonu; ~200 katılımcı, her katılımcı poster sunar. Başvuru ücretsiz, öğrenci kayıt ücreti ~¥60.000.",
@@ -631,7 +633,7 @@
       "japonya",
       "poster"
     ],
-    "verified_at": "2026-09-29"
+    "verified_at": "2026-10-03"
   },
   {
     "title": "EEML 2027 – Eastern European Machine Learning Summer School",

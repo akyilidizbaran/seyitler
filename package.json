@@ -13,7 +13,8 @@
     "users:create": "tsx --env-file-if-exists=.env.local scripts/create-users.ts",
     "refresh": "tsx --env-file-if-exists=.env.local scripts/refresh.ts",
     "typecheck": "next typegen && tsc --noEmit",
-    "data:check": "tsx scripts/check-data.ts"
+    "data:check": "tsx scripts/check-data.ts",
+    "db:update": "tsx --env-file-if-exists=.env.local scripts/apply-updates.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.129.0",

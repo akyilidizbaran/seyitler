@@ -72,9 +72,10 @@ export async function markSeen(userId: number) {
 
 export type NotificationKind = "deadline" | "new";
 
-// Bildirim kuralları (ikisi de "Okudum" denene kadar kalır):
+// Bildirim kuralları ("Okudum" denene ya da son tarih geçene kadar kalır):
 //  - deadline: açık, son tarihi 7 gün içinde, kullanıcının "Başvurdum/Sonuçlandı/Geçtim" demediği fırsatlar
 //  - new: kullanıcının hesabı açıldıktan sonra ve son 30 günde eklenen açık/yakında/onay bekleyen fırsatlar
+// Son tarihi geçen fırsatın bildirimi, tarama durumu henüz "closed" yapmamış olsa bile kendiliğinden düşer.
 function unreadWhere(userId: number, kind: NotificationKind) {
   const today = todayIstanbul();
   const base =
@@ -82,7 +83,8 @@ function unreadWhere(userId: number, kind: NotificationKind) {
       ? sql`o.status = 'active' and o.deadline between ${today}::date and ${today}::date + 7
             and (us.status is null or us.status = 'interested')`
       : sql`o.status in ('active','upcoming','pending') and o.created_at > now() - interval '30 days'
-            and o.created_at > (select created_at from users where id = ${userId})`;
+            and o.created_at > (select created_at from users where id = ${userId})
+            and (o.deadline is null or o.deadline >= ${today}::date)`;
   return sql`${base} and not exists (
     select 1 from notification_reads nr where nr.user_id = ${userId} and nr.opportunity_id = o.id and nr.kind = ${kind}
   )`;

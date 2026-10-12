@@ -11,7 +11,7 @@ if (!by || !/^[a-z0-9._-]{2,32}$/.test(by)) {
   console.error("--by geçerli bir kullanıcı adı olmalı.");
   process.exit(1);
 }
-const file = args.find((a, i) => !a.startsWith("--") && i !== byIndex + 1) ?? "data/seed.json";
+const file = args.find((a, i) => !a.startsWith("--") && (byIndex < 0 || i !== byIndex + 1)) ?? "data/seed.json";
 const items: SeedItem[] = JSON.parse(readFileSync(file, "utf8"));
 const sql = connect();
 

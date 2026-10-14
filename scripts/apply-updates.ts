@@ -16,7 +16,7 @@ type Update = { id: number; fixes: Record<string, unknown>; reason?: string };
 const args = process.argv.slice(2);
 const byIndex = args.indexOf("--by");
 const by = byIndex >= 0 ? args[byIndex + 1] : "admin";
-const file = args.find((a, i) => !a.startsWith("--") && i !== byIndex + 1);
+const file = args.find((a, i) => !a.startsWith("--") && (byIndex < 0 || i !== byIndex + 1));
 if (!file || !by || !/^[a-z0-9._-]{2,32}$/.test(by)) {
   console.error("Kullanım: npm run db:update -- dosya.json [--by kullanici_adi]");
   process.exit(1);

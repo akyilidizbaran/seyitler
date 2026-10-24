@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Microsoft Azure Data & AI Intern (Uzun Dönem, 5 Ay)",
+    "organization": "Nephos AI",
+    "category": "uzun_donem_staj",
+    "location": "İstanbul",
+    "work_mode": "yerinde",
+    "country": "Türkiye",
+    "deadline": null,
+    "opens_at": null,
+    "deadline_note": "LinkedIn ilanı 24 Ekim 2026'da yayımlandı ve açık; ilanda son başvuru tarihi yok.",
+    "apply_url": "https://www.linkedin.com/jobs/view/4481061046/",
+    "source_url": "https://www.linkedin.com/jobs/view/4481061046/",
+    "description": "Microsoft Fabric, Azure OpenAI ve Azure veri platformu üzerinde kurumsal veri ve üretken YZ projelerinde 5 aylık uzun dönem staj. Birebir mentorluk ve Microsoft sertifikasyonuna hazırlık desteği var; başarılı stajyerlere Junior Engineer önceliği veriliyor.",
+    "eligibility": "Bilgisayar, Yazılım, Yapay Zekâ/Veri Mühendisliği, YBS veya ilgili bölümde 3. ya da 4. sınıf öğrencisi; haftada en az 3–4 gün İstanbul ofisinde çalışabilmek; temel Python, SQL ve veri yapıları bilgisi.",
+    "tags": ["azure", "veri mühendisliği", "üretken yz", "istanbul", "uzun staj"],
+    "verified_at": "2026-10-24"
+  },
+  {
+    "title": "Codex x TwitchCon Hackathon",
+    "organization": "OpenAI & Twitch (yürütücü: Devpost)",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-11-02",
+    "opens_at": null,
+    "deadline_note": "Resmi kurallara göre gönderim 23 Ekim – 2 Kasım 2026, 14:00 PT (TSİ 3 Kasım 00:00). Kazananlar 15 Kasım civarında TwitchCon San Diego'da açıklanır.",
+    "apply_url": "https://twitchcon-codex.devpost.com/",
+    "source_url": "https://twitchcon-codex.devpost.com/rules",
+    "description": "OpenAI Codex ile Twitch yayıncıları ve toplulukları için sohbet, overlay, Twitch API veya EventSub üzerinden çalışan etkileşimli bir proje geliştirme yarışması. Birincilik ödülü 10.000 $; toplam 25.000 $.",
+    "eligibility": "18 yaşını doldurmuş bireyler ve takımlar; ABD yaptırımlı ülkeler, Brezilya ve Quebec hariç (Türkiye uygun). Kurumlar katılamaz.",
+    "tags": ["online", "llm", "kodlama ajanı", "devpost"],
+    "verified_at": "2026-10-24"
+  }
+]

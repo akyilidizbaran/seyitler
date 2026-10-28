@@ -1,0 +1,53 @@
+[
+  {
+    "title": "AI Software Engineer Intern",
+    "organization": "Playable Factory",
+    "category": "uzun_donem_staj",
+    "location": "İstanbul (Zincirlikuyu)",
+    "work_mode": "yerinde",
+    "country": "Türkiye",
+    "deadline": null,
+    "opens_at": null,
+    "deadline_note": "LinkedIn ilanı 27 Ekim 2026'da yayımlandı ve 28.10.2026'da açık; ilanda son başvuru tarihi yok.",
+    "apply_url": "https://www.linkedin.com/jobs/view/4481890558/",
+    "source_url": "https://www.linkedin.com/jobs/view/4481890558/",
+    "description": "Etkileşimli reklam (playable ad) üreten ad-tech şirketinde yapay zekâyı işin merkezine koyan yazılım stajı: prompt, ajan ve YZ iş akışlarıyla denemeler, LLM API entegrasyonları, YZ çıktısını test edip yayına hazır hâle getirme. Ücretli; başarılı stajyerler tam zamanlıya değerlendiriliyor.",
+    "eligibility": "Üniversite öğrencisi veya yeni mezun; tercihen JavaScript/TypeScript ile yazılım temeli ve YZ kodlama araçlarıyla pratik deneyim.",
+    "tags": ["llm", "ajan", "part-time", "istanbul", "ücretli"],
+    "verified_at": "2026-10-28"
+  },
+  {
+    "title": "QA & Content Testing Intern (Uzun Dönem)",
+    "organization": "AI Business School",
+    "category": "uzun_donem_staj",
+    "location": "İstanbul",
+    "work_mode": "bilinmiyor",
+    "country": "Türkiye",
+    "deadline": null,
+    "opens_at": null,
+    "deadline_note": "LinkedIn ilanı 15 Ekim 2026'da yayımlandı ve 28.10.2026'da açık; ilanda son başvuru tarihi yok.",
+    "apply_url": "https://www.linkedin.com/jobs/view/4479805469/",
+    "source_url": "https://www.linkedin.com/jobs/view/4479805469/",
+    "description": "Yapay zekâ eğitim platformlarında (SaaS) uzun dönem, ücretli test stajı: test senaryolarıyla özellik testleri, regresyon testleri, çok dilli içerik ve arayüz kontrolleri, hata raporlama.",
+    "eligibility": "Bilgisayar/Yazılım Mühendisliği, YBS, Endüstri Mühendisliği vb. bölümlerde 3. ya da 4. sınıf öğrencisi veya yeni mezun; güçlü yazılı İngilizce.",
+    "tags": ["test", "qa", "yapay zeka", "istanbul", "ücretli"],
+    "verified_at": "2026-10-28"
+  },
+  {
+    "title": "BSH WE Power – Women in Engineering & Sales 2026",
+    "organization": "BSH Ev Aletleri",
+    "category": "uzun_donem_staj",
+    "location": "İstanbul / Çerkezköy",
+    "work_mode": "bilinmiyor",
+    "country": "Türkiye",
+    "deadline": "2026-11-13",
+    "opens_at": null,
+    "deadline_note": "anbean Kampüs ilanında son başvuru 13 Kasım 2026, 23:59. Başvuru anbean Kampüs hesabıyla yapılıyor.",
+    "apply_url": "https://anbeankampus.co/bsh-ev-aletleri/bsh-we-power-women-in-engineering-sales-2026/",
+    "source_url": "https://anbeankampus.co/bsh-ev-aletleri/bsh-we-power-women-in-engineering-sales-2026/",
+    "description": "BSH'nin kadın öğrencilere özel uzun dönem staj programı; Ar-Ge, Üretim, Kalite, Satış ve Tedarik Zinciri birimlerinde haftada en az 3 gün.",
+    "eligibility": "Kadın lisans, yüksek lisans veya doktora öğrencileri; mühendislik veya satış alanına ilgi.",
+    "tags": ["kadınlara özel", "uzun staj", "ar-ge", "istanbul"],
+    "verified_at": "2026-10-28"
+  }
+]

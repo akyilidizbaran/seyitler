@@ -124,7 +124,17 @@ const GROUPS = [
     brief: `Türkiye'de AI / veri mühendisliği / yazılım odaklı kariyer fırsatları: aday mühendislik programları, dönem içi
 part-time uzun dönem stajlar, 2027 yaz stajları ve 2027 mezunlarına yönelik yeni mezun / graduate / genç yetenek programları.
 Savunma sanayii (Aselsan, Roketsan, Havelsan, Baykar, TUSAŞ, STM), telekom (Turkcell, Türk Telekom, Vodafone), bankalar ve
-teknoloji şirketleri (Garanti BBVA Teknoloji, Akbank, Trendyol, Getir, Insider), Ankara/İstanbul teknopark startupları.`,
+teknoloji şirketleri (Garanti BBVA Teknoloji, Akbank, Trendyol, Getir, Insider), Ankara/İstanbul teknopark startupları.
+Kaynak olarak Youthall'ın ilan sayfalarına (youthall.com/tr/is-ilanlari/stajyer/, /part-time/, /mt-programi/; etkinlikler sayfası
+değil), Anbean Kampüs ilanlarına ve şirketlerin kendi başvuru sistemlerine (Peoplise, SmartRecruiters, Lever, Greenhouse,
+kariyer.*) bak.`,
+  },
+  {
+    key: "genel_programlar",
+    brief: `Başlığında teknik kelime geçmeyen ama departmanları arasında yazılım, veri bilimi, iş zekâsı, yapay zekâ, IT veya
+Ar-Ge bulunan genel staj, uzun dönem staj, genç yetenek ve MT programları (ör. holding ve grup şirketlerinin "Uzun Dönem Genel
+Stajyer", "Genç Yetenek Programı", "4 Seasons" gibi programları: Koç, Sabancı, Oyak, Eczacıbaşı, Doğuş, Borusan, Zorlu,
+Anadolu Grubu, Yıldız Holding şirketleri). Departman listesini resmi ilandan teyit et; veri/yazılım/IT departmanı yoksa ekleme.`,
   },
   {
     key: "akademik",

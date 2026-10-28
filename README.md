@@ -89,7 +89,8 @@ Repo → *Settings → Secrets and variables → Actions*:
 İş akışı `.github/workflows/refresh.yml` her 3 günde bir İstanbul saatiyle 09:00'da çalışır. *Actions → Fırsat taraması →
 Run workflow* ile elle de başlatılabilir. Sonuçlar sitede *Otomatik güncelleme geçmişi* sayfasında görünür.
 
-> **Maliyet:** Her AI taraması 5 alanı (kariyer, akademik, araştırma/eğitim, yarışma/girişim, açık kaynak) web aramasıyla tarar.
+> **Maliyet:** Her AI taraması 6 alanı (kariyer, genel staj/genç yetenek programları, akademik, araştırma/eğitim, yarışma/girişim,
+> açık kaynak) web aramasıyla tarar.
 > `AI_GROUPS` değişkeniyle (ör. `kariyer,akademik`) sadece bazılarını çalıştırabilirsin.
 > Tutar modele ve bulunan sayfa sayısına göre değişir. Anthropic konsolunda aylık harcama limiti koyman önerilir.
 

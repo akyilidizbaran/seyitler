@@ -111,5 +111,74 @@
       "ödüllü"
     ],
     "verified_at": "2026-10-28"
+  },
+  {
+    "title": "Uzun Dönem Genel Stajyer Programı (İş Zekası / Veri Bilimi / Yapay Zekâ dahil)",
+    "organization": "Otokoç Otomotiv (Koç Topluluğu)",
+    "category": "uzun_donem_staj",
+    "location": "İstanbul",
+    "work_mode": "hibrit",
+    "country": "Türkiye",
+    "deadline": "2026-11-13",
+    "opens_at": null,
+    "deadline_note": "Resmi başvuru sayfasında (Peoplise) son başvuru 13 Kasım 2026. Süreç: ön değerlendirme, İK ve yönetici mülakatları, İngilizce ve genel yetenek testi, teklif.",
+    "apply_url": "https://live.peoplise.com/otokocotomotiv/Application/Landing/0a033a43-ba47-4c1e-a41b-d74027521718",
+    "source_url": "https://live.peoplise.com/otokocotomotiv/Application/Landing/0a033a43-ba47-4c1e-a41b-d74027521718",
+    "description": "Otokoç Otomotiv'de farklı departmanlarda uzun dönem staj. Departmanlar arasında İş Zekâsı / Veri Bilimi / Yapay Zekâ, Yazılım, Sistem Altyapı / Siber Güvenlik ve İş Analizi / Ürün Yönetimi de var. Kariyer sohbetleri ve Otokoç Alumni ağı.",
+    "eligibility": "3. veya 4. sınıf öğrencisi, yüksek lisans öğrencisi ya da yeni mezun; haftada en az 3 gün tam zamanlı çalışabilmek; iyi İngilizce.",
+    "tags": [
+      "uzun staj",
+      "veri bilimi",
+      "yapay zeka",
+      "istanbul",
+      "koç"
+    ],
+    "verified_at": "2026-10-28"
+  },
+  {
+    "title": "Commencis Cloud Camp 2027",
+    "organization": "Commencis",
+    "category": "egitim",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-11-25",
+    "opens_at": null,
+    "deadline_note": "Youthall ilanının detay kısmında son başvuru 25.11.2026, metin içinde 31.12.2026 yazıyor; erken tarih esas alındı. Program 19 Ocak – 25 Şubat 2027, Salı ve Perşembe 18:00–19:30, 6 hafta. Kontenjan 25 kişi.",
+    "apply_url": "https://www.youthall.com/en/Commencis/commencis-cloud-camp-2027_50/",
+    "source_url": "https://www.youthall.com/en/Commencis/commencis-cloud-camp-2027_50/",
+    "description": "Commencis'in ücretsiz, online bulut teknolojileri kampı: AWS onaylı eğitim ve uluslararası bulut sertifika sınavlarına hazırlık.",
+    "eligibility": "3. sınıf ve üzeri üniversite öğrencileri; başvuru LinkedIn veya hr@commencis.com adresine CV ile.",
+    "tags": [
+      "cloud",
+      "aws",
+      "sertifika",
+      "online",
+      "ücretsiz"
+    ],
+    "verified_at": "2026-10-28"
+  },
+  {
+    "title": "4 Seasons Proje Stajyerliği (Ar-Ge, IT ve diğer fonksiyonlar)",
+    "organization": "Oyak Renault",
+    "category": "uzun_donem_staj",
+    "location": "Bursa",
+    "work_mode": "hibrit",
+    "country": "Türkiye",
+    "deadline": "2026-11-20",
+    "opens_at": null,
+    "deadline_note": "Youthall ilanında son başvuru 20.11.2026. Süreç: başvuru, CV değerlendirmesi, mülakat, teklif.",
+    "apply_url": "https://www.youthall.com/tr/OyakRenault/4-seasons-proje-stajyerligi_61/",
+    "source_url": "https://www.youthall.com/tr/OyakRenault/4-seasons-proje-stajyerligi_61/",
+    "description": "Oyak Renault'nun Bursa ana kampüsünde Renault Teknoloji Türkiye Ar-Ge, Üretim Mühendisliği, Endüstriyel ve Kalite, Tedarik Zinciri, Satın Alma, IT, Finans ve İK fonksiyonlarında haftada 3–4 gün proje stajı. Ücret en az aylık net asgari ücret.",
+    "eligibility": "3. veya 4. sınıf ya da yüksek lisans öğrencisi; en az 60 iş günü staj yapabilecek veya sigortası okulca karşılanan; Excel, Power BI, CATIA, AutoCAD'den en az ikisinde iyi; iyi İngilizce.",
+    "tags": [
+      "uzun staj",
+      "otomotiv",
+      "ar-ge",
+      "bursa",
+      "ücretli"
+    ],
+    "verified_at": "2026-10-28"
   }
 ]

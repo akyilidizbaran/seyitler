@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Part-Time Working Student (Software Developer) – Ar-Ge",
+    "organization": "Siemens Türkiye",
+    "category": "uzun_donem_staj",
+    "location": "İstanbul",
+    "work_mode": "hibrit",
+    "country": "Türkiye",
+    "deadline": null,
+    "opens_at": null,
+    "deadline_note": "LinkedIn ilanı 27 Ekim 2026'da yayımlandı ve açık; ilanda son başvuru tarihi yok.",
+    "apply_url": "https://www.linkedin.com/jobs/view/4483664932/",
+    "source_url": "https://www.linkedin.com/jobs/view/4483664932/",
+    "description": "Siemens Türkiye Ar-Ge'de vinç projeleri için yazılım tasarımı, geliştirme, birim ve otomatik UI testleri, hata ayıklama ve sürüm işleri. Kısmen uzaktan çalışma.",
+    "eligibility": "Bilgisayar Mühendisliği (veya yakın bölüm) 3. ya da 4. sınıf öğrencisi; çok iyi İngilizce; haftada en az 2,5 gün çalışabilmek. Herhangi bir programlama dili ve web geliştirme bilgisi artı.",
+    "tags": ["part-time", "yazılım", "endüstriyel otomasyon", "istanbul", "hibrit"],
+    "verified_at": "2026-10-27"
+  },
+  {
+    "title": "Associate Data Analytics Consultant – New Graduate",
+    "organization": "SnA Consulting",
+    "category": "yeni_mezun",
+    "location": "İstanbul",
+    "work_mode": "hibrit",
+    "country": "Türkiye",
+    "deadline": null,
+    "opens_at": null,
+    "deadline_note": "LinkedIn ilanı 27 Ekim 2026'da yayımlandı ve açık; ilanda son başvuru tarihi yok. İlan yeni mezunlara yönelik; 2027 mezunlarının başvurusu için başlangıç tarihini sormak gerekir.",
+    "apply_url": "https://www.linkedin.com/jobs/view/4481878902/",
+    "source_url": "https://www.linkedin.com/jobs/view/4481878902/",
+    "description": "Bankacılık, sigorta, telekom, perakende ve enerji müşterileri için büyük veri setlerinde analiz, istatistiksel tahmin modellerinin eğitimi, doğrulaması ve uygulaması. Ev ofis düzenlemesi var.",
+    "eligibility": "İşletme, finans, ekonomi, endüstri mühendisliği, bilgisayar bilimi vb. lisans mezunu; uygulamalı istatistik, SQL ve Python/R bilgisi.",
+    "tags": ["veri analitiği", "danışmanlık", "sql", "python", "istanbul"],
+    "verified_at": "2026-10-27"
+  },
+  {
+    "title": "Codegeist 2026: Build with Context (Atlassian Forge Hackathon)",
+    "organization": "Atlassian (yürütücü: Devpost)",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-12-22",
+    "opens_at": null,
+    "deadline_note": "Resmi kurallara göre gönderim 27 Ekim – 22 Aralık 2026, 12:00 PT (TSİ 23:00). Değerlendirme 5 Ocak – 3 Şubat 2027; kazananlar 15 Şubat 2027 civarında.",
+    "apply_url": "https://codegeist2026.devpost.com/",
+    "source_url": "https://codegeist2026.devpost.com/rules",
+    "description": "Atlassian Forge platformuyla Jira, Confluence veya Rovo'ya entegre bir uygulama geliştirme yarışması; Rovo ajanları ve Atlassian MCP kategorileri var. Toplam ödül 120.000 $.",
+    "eligibility": "Yaşadığı ülkede reşit olan bireyler, takımlar ve kuruluşlar; ABD yaptırımlı ülkeler, Brezilya, Quebec, Rusya ve Belarus hariç (Türkiye uygun).",
+    "tags": ["online", "llm", "ajan", "mcp", "devpost"],
+    "verified_at": "2026-10-27"
+  }
+]

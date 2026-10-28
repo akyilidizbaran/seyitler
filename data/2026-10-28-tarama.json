@@ -13,7 +13,13 @@
     "source_url": "https://x.com/HuaweiTurkiye/status/2098297992151446015",
     "description": "Huawei'nin 2015'ten beri düzenlediği küresel bilişim yarışması (100+ ülke, 200 bin+ katılımcı). Practice yarışmasında Network, Cloud ve Computing parkurlarında 8 saatlik uygulamalı sınav; Innovation yarışmasında yapay zekâ ve ICT ile takım projesi (15 dk sunum + 5 dk soru-cevap).",
     "eligibility": "Üniversite öğrencileri (lisans, yüksek lisans, doktora); mezunlar katılamaz. Ön eleme ve ulusal aşama bireysel, bölgesel ve global aşamalar 3 öğrenci + 1 eğitmenlik takım. Yalnızca bir parkura kayıt olunabilir. HCIA/HCIP/HCIE sertifikası ön elemede 50/100/200 ek puan.",
-    "tags": ["huawei", "network", "cloud", "yapay zeka", "global final"],
+    "tags": [
+      "huawei",
+      "network",
+      "cloud",
+      "yapay zeka",
+      "global final"
+    ],
     "verified_at": "2026-10-28"
   },
   {
@@ -30,7 +36,12 @@
     "source_url": "https://kariyer.deu.edu.tr/duyurular/turkcell-gelecegi-yazanlar-bootcamp-programlari-son-basvuru-8-kasim-2026/",
     "description": "Turkcell'in 90–120 saatlik yoğun teknik eğitim programı: birebir mentorluk ve proje tabanlı öğrenme. Yapay Zekâ ile Veri Bilimi ve Oyun Programlama alanları var.",
     "eligibility": "Lisans 4. sınıf, yüksek lisans veya doktora öğrencisi ya da yeni mezun.",
-    "tags": ["bootcamp", "veri bilimi", "yapay zeka", "turkcell"],
+    "tags": [
+      "bootcamp",
+      "veri bilimi",
+      "yapay zeka",
+      "turkcell"
+    ],
     "verified_at": "2026-10-28"
   },
   {
@@ -47,7 +58,13 @@
     "source_url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/overview",
     "description": "Yapay zekâ kodlama ajanları ve klasik optimizasyonla füzyon enerjisi, kombinatoryal optimizasyon ve kuantum kimyasındaki kuantum devrelerini küçültme yarışması. Kuantum fiziği bilgisi gerekmiyor; devreler klasik bilgisayarda doğrulanıyor. Toplam ödül 150.000 $.",
     "eligibility": "Kaggle kurallarına göre kayıtlı kullanıcılar, bireysel veya takım.",
-    "tags": ["kaggle", "optimizasyon", "ajan", "kuantum", "online"],
+    "tags": [
+      "kaggle",
+      "optimizasyon",
+      "ajan",
+      "kuantum",
+      "online"
+    ],
     "verified_at": "2026-10-28"
   },
   {
@@ -64,7 +81,35 @@
     "source_url": "https://www.kaggle.com/competitions/squares-in-squares/overview",
     "description": "n adet birim kareyi en küçük kareye üst üste binmeden yerleştirme problemi (n = 1–1000). Çoğu n için en iyi çözüm hâlâ bilinmiyor; benzetimli tavlama, evrimsel algoritmalar veya pekiştirmeli öğrenme kullanılabilir. Toplam ödül 50.000 $.",
     "eligibility": "Kaggle kurallarına göre kayıtlı kullanıcılar, bireysel veya takım.",
-    "tags": ["kaggle", "optimizasyon", "matematik", "online"],
+    "tags": [
+      "kaggle",
+      "optimizasyon",
+      "matematik",
+      "online"
+    ],
+    "verified_at": "2026-10-28"
+  },
+  {
+    "title": "YTU Startup House & Meta Student Hackathon – Takım Başvurusu",
+    "organization": "YTU Startup House & Meta (AI Builders Türkiye)",
+    "category": "yarisma",
+    "location": "İstanbul (YTÜ Startup House)",
+    "work_mode": "yerinde",
+    "country": "Türkiye",
+    "deadline": null,
+    "opens_at": null,
+    "deadline_note": "Resmi program sayfasında 28.10.2026 itibarıyla 'Applications for the Student Hackathon are now open' yazıyor; formda son başvuru tarihi belirtilmemiş. Hackathon 4–6 Aralık 2026.",
+    "apply_url": "https://ytustartuphouse.notion.site/meta-student-hackathon",
+    "source_url": "https://ytustartuphouse.notion.site/meta-student-hackathon",
+    "description": "Meta'nın yapay zekâ modelleri ve araçlarıyla fikirden prototipe giden, YTÜ Startup House'ta 4–6 Aralık'ta yapılacak öğrenci hackathonu. Ödüller: 3.000 $, 2.000 $ ve 1.000 $; ilk üç takıma Ön Kuluçka Programı kabulü.",
+    "eligibility": "18–26 yaş arası, ön lisans veya lisans öğrencisi; 2–4 kişilik takımlarla başvuru. Sayfaya göre AI 101 eğitim serisi katılımcıları takım olarak başvurabiliyor; eğitimi tamamlayanlar öncelikli.",
+    "tags": [
+      "hackathon",
+      "meta",
+      "llm",
+      "istanbul",
+      "ödüllü"
+    ],
     "verified_at": "2026-10-28"
   }
 ]

@@ -117,5 +117,39 @@
     "eligibility": "Veri analitiği veya ilgili alanlarda okuyan öğrenciler; Power BI ve veri doğrulama bilgisi, akıcı İngilizce. SAP SD/MM/PS deneyimi artı. İlanda lisans derecesi de geçtiği için öğrenciliğin yeterli olup olmadığı başvuruda netleşmeli.",
     "tags": ["veri analizi", "power bi", "kocaeli", "hibrit", "working student"],
     "verified_at": "2026-11-04"
+  },
+  {
+    "title": "YC Ayı Hackathonu (YC mezunu kurucularla)",
+    "organization": "GirisimcilerCompany (GirCo) – Eventstanbul",
+    "category": "yarisma",
+    "location": "İstanbul",
+    "work_mode": "yerinde",
+    "country": "Türkiye",
+    "deadline": "2026-11-25",
+    "opens_at": null,
+    "deadline_note": "Son başvuru 25 Kasım 2026, 23:59; başvurular geldikçe değerlendiriliyor, erken başvuranın şansı yüksek. Hackathon 28 Kasım 10:00 – 29 Kasım 19:00, QNBEYOND (Esentepe, Şişli); 27 Kasım akşamı Kolektif House Levent'te Codex atölyesi var.",
+    "apply_url": "https://girisimciler.co/eventstanbul/yc-hackathon",
+    "source_url": "https://girisimciler.co/eventstanbul/yc-hackathon",
+    "description": "İki günde \"insanların istediği bir şey\" yapma hedefli hackathon; jüri demonun yanında ürünün hafta sonu boyunca kaç gerçek kullanıcıya ulaştığına da bakıyor. Konuklar 5 Y Combinator mezunu kurucu, ödül havuzu 50.000 dolar değerinde kredi ve ödüller. Etkinliği GirCo düzenliyor, Y Combinator'ın resmi etkinliği değil.",
+    "eligibility": "100 kişi seçiliyor; takımlar en fazla 4 kişi ve her üye ayrı başvuruyor. Takımı olmayanlar tek başına katılabilir ya da eşleştirme isteyebilir.",
+    "tags": ["hackathon", "girişimcilik", "y combinator", "istanbul", "ürün geliştirme"],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "Data Engineering Bootcamp (40 saat, online)",
+    "organization": "Tech Istanbul",
+    "category": "egitim",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": null,
+    "opens_at": null,
+    "deadline_note": "Eğitim 23 Kasım – 23 Aralık 2026 arasında, 16:00–20:00 oturumlarıyla. Kayıt sayfası açık; son kayıt tarihi ve ücret bilgisi sayfada yazmıyor.",
+    "apply_url": "https://kommunity.com/techistanbul/events/data-engineering-bootcamp-084cfede",
+    "source_url": "https://kommunity.com/techistanbul/events/data-engineering-bootcamp-084cfede",
+    "description": "Toplam 40 saatlik, uygulama odaklı çevrim içi veri mühendisliği eğitimi: veri modelleme, ETL/ELT ve pipeline geliştirme, Apache Spark, Kafka, Airflow ve modern veri platformları üzerinde gerçek projeler.",
+    "eligibility": "Veri mühendisliğinde kariyer hedefleyenler, yazılım geliştiriciler ve veri analistleri. Ücretli olup olmadığı kayıt sırasında netleşmeli.",
+    "tags": ["veri mühendisliği", "spark", "kafka", "airflow", "bootcamp", "online"],
+    "verified_at": "2026-11-04"
   }
 ]

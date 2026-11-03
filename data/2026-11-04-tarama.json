@@ -13,7 +13,14 @@
     "source_url": "https://qnx.devpost.com/rules",
     "description": "Ticari olmayan kullanım için ücretsiz olan QNX 8.0 gerçek zamanlı işletim sistemiyle serbest temalı proje yarışması: robotik, sürücü yazma, IoT ve yapay zekâ uygulamaları gibi projeler gönderilebiliyor. Toplam 50.000 dolar nakit ödül.",
     "eligibility": "18 yaşından büyük bireyler, takımlar ve kurumlar. ABD yaptırımlarına tabi ülkeler ve Brezilya hariç tüm ülkelerden katılım açık; Türkiye kısıtlı ülkeler arasında değil.",
-    "tags": ["hackathon", "qnx", "gömülü sistemler", "iot", "online", "devpost"],
+    "tags": [
+      "hackathon",
+      "qnx",
+      "gömülü sistemler",
+      "iot",
+      "online",
+      "devpost"
+    ],
     "verified_at": "2026-11-04"
   },
   {
@@ -30,7 +37,13 @@
     "source_url": "https://start-developer-competition-26.devpost.com/rules",
     "description": "Meta VR cihazları (Meta Quest ve Meta VR Glasses) için eğlence, oyun ve üretkenlik uygulamaları geliştirme yarışması; el hareketleriyle doğal etkileşim öne çıkıyor. Toplam 1.000.000 dolar nakit ödül.",
     "eligibility": "Reşit (18+) bireyler, takımlar ve kurumlar; katılım için Meta VR geliştirici hesabı ve Meta VR Start programı üyeliği gerekiyor. Brezilya, Quebec ve yaptırım uygulanan bölgeler hariç; Türkiye'den katılım açık.",
-    "tags": ["hackathon", "vr", "meta quest", "online", "devpost"],
+    "tags": [
+      "hackathon",
+      "vr",
+      "meta quest",
+      "online",
+      "devpost"
+    ],
     "verified_at": "2026-11-04"
   },
   {
@@ -47,7 +60,13 @@
     "source_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
     "description": "6G'nin kilit teknolojilerinden bütünleşik algılama ve haberleşme üzerine kış okulu: radar ve kablosuz algılama, OFDM/MIMO, ISAC mimarileri, huzme biçimlendirme, kanal modellemesi, araç algılama ve İHA tespiti gibi konular. Yüz yüze katılımcılara ücretsiz konaklama ve Türkiye içi ulaşım desteği var.",
     "eligibility": "Başvuru herkese açık; yüz yüze kontenjan 50 kişi ve önceliği yüksek lisans, doktora öğrencileri ile doktora sonrası araştırmacılar alıyor. Lisans öğrencileri için çevrim içi katılım daha gerçekçi.",
-    "tags": ["kış okulu", "6g", "kablosuz haberleşme", "tübitak", "gebze"],
+    "tags": [
+      "kış okulu",
+      "6g",
+      "kablosuz haberleşme",
+      "tübitak",
+      "gebze"
+    ],
     "verified_at": "2026-11-04"
   },
   {
@@ -64,7 +83,13 @@
     "source_url": "https://coderspace.io/etkinlikler/vodafone-business-itu-siber-guvenlik-akademisi/",
     "description": "Cumartesi günleri yapılan 5 haftalık, toplam 30 saatlik ücretsiz çevrim içi siber güvenlik eğitimi: siber güvenliğin temelleri, ağ güvenliği, web uygulama güvenliği gibi konular. Sınavı geçenler İTÜ başarı sertifikası alıyor.",
     "eligibility": "Siber güvenliğe temelden başlamak isteyen herkes; ileri düzey ön bilgi gerekmiyor.",
-    "tags": ["siber güvenlik", "sertifika", "ücretsiz", "online", "itü"],
+    "tags": [
+      "siber güvenlik",
+      "sertifika",
+      "ücretsiz",
+      "online",
+      "itü"
+    ],
     "verified_at": "2026-11-04"
   },
   {
@@ -81,7 +106,13 @@
     "source_url": "https://coderspace.io/etkinlikler/49w-x-coderspace-yapay-zeka-paneli/",
     "description": "49W YouTube kanalının ekibiyle yapay zekânın yakın geleceği ve 2027 beklentileri üzerine bir saatlik ücretsiz, sertifikalı çevrim içi panel.",
     "eligibility": "Herkese açık, ücretsiz.",
-    "tags": ["panel", "yapay zekâ", "online", "sertifika", "coderspace"],
+    "tags": [
+      "panel",
+      "yapay zekâ",
+      "online",
+      "sertifika",
+      "coderspace"
+    ],
     "verified_at": "2026-11-04"
   },
   {
@@ -98,7 +129,13 @@
     "source_url": "https://www.linkedin.com/jobs/view/4484633697/",
     "description": "Eczacıbaşı Bilişim'in Kariyer Deneyim Sürüşü staj programında yapay zekâ ekibiyle LLM tabanlı uygulamalar geliştirme: model çağrılarını uygulama katmanına bağlayan servisler, API entegrasyonları, prompt tasarımı ve farklı yaklaşımların çıktı kalitesine etkisinin karşılaştırılması.",
     "eligibility": "Bilgisayar, yazılım, yapay zekâ mühendisliği, veri bilimi veya ilgili bölümlerde okuyan öğrenciler. Python, Git, REST API ve JSON bilgisi; LLM API'leriyle en azından kişisel proje deneyimi; RAG, ajan ve tool calling kavramlarına aşinalık bekleniyor.",
-    "tags": ["llm", "rag", "uzaktan", "python", "uzun dönem staj"],
+    "tags": [
+      "llm",
+      "rag",
+      "uzaktan",
+      "python",
+      "uzun dönem staj"
+    ],
     "verified_at": "2026-11-04"
   },
   {
@@ -115,7 +152,13 @@
     "source_url": "https://www.linkedin.com/jobs/view/4486883504/",
     "description": "ABB'nin küresel proje operasyonları ekibinde çalışan öğrenci pozisyonu: LVS verisinin farklı kaynaklardan toplanması, KPI kıyaslaması, operasyon süreçlerinin analizi ve Power BI panoları ile otomatik raporlama.",
     "eligibility": "Veri analitiği veya ilgili alanlarda okuyan öğrenciler; Power BI ve veri doğrulama bilgisi, akıcı İngilizce. SAP SD/MM/PS deneyimi artı. İlanda lisans derecesi de geçtiği için öğrenciliğin yeterli olup olmadığı başvuruda netleşmeli.",
-    "tags": ["veri analizi", "power bi", "kocaeli", "hibrit", "working student"],
+    "tags": [
+      "veri analizi",
+      "power bi",
+      "kocaeli",
+      "hibrit",
+      "working student"
+    ],
     "verified_at": "2026-11-04"
   },
   {
@@ -132,7 +175,13 @@
     "source_url": "https://girisimciler.co/eventstanbul/yc-hackathon",
     "description": "İki günde \"insanların istediği bir şey\" yapma hedefli hackathon; jüri demonun yanında ürünün hafta sonu boyunca kaç gerçek kullanıcıya ulaştığına da bakıyor. Konuklar 5 Y Combinator mezunu kurucu, ödül havuzu 50.000 dolar değerinde kredi ve ödüller. Etkinliği GirCo düzenliyor, Y Combinator'ın resmi etkinliği değil.",
     "eligibility": "100 kişi seçiliyor; takımlar en fazla 4 kişi ve her üye ayrı başvuruyor. Takımı olmayanlar tek başına katılabilir ya da eşleştirme isteyebilir.",
-    "tags": ["hackathon", "girişimcilik", "y combinator", "istanbul", "ürün geliştirme"],
+    "tags": [
+      "hackathon",
+      "girişimcilik",
+      "y combinator",
+      "istanbul",
+      "ürün geliştirme"
+    ],
     "verified_at": "2026-11-04"
   },
   {
@@ -149,7 +198,390 @@
     "source_url": "https://kommunity.com/techistanbul/events/data-engineering-bootcamp-084cfede",
     "description": "Toplam 40 saatlik, uygulama odaklı çevrim içi veri mühendisliği eğitimi: veri modelleme, ETL/ELT ve pipeline geliştirme, Apache Spark, Kafka, Airflow ve modern veri platformları üzerinde gerçek projeler.",
     "eligibility": "Veri mühendisliğinde kariyer hedefleyenler, yazılım geliştiriciler ve veri analistleri. Ücretli olup olmadığı kayıt sırasında netleşmeli.",
-    "tags": ["veri mühendisliği", "spark", "kafka", "airflow", "bootcamp", "online"],
+    "tags": [
+      "veri mühendisliği",
+      "spark",
+      "kafka",
+      "airflow",
+      "bootcamp",
+      "online"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "EdTech Hackathon '26 – Game Jam",
+    "organization": "İşler Teknoloji & İşler Kitabevleri",
+    "category": "yarisma",
+    "location": "İstanbul",
+    "work_mode": "yerinde",
+    "country": "Türkiye",
+    "deadline": "2026-11-06",
+    "opens_at": null,
+    "deadline_note": "Son başvuru 6 Kasım 2026. Hackathon 13–14 Kasım 2026 (Cuma–Cumartesi, 24 saat), İşler Teknoloji İstanbul ofisi, Kağıthane.",
+    "apply_url": "https://islerteknoloji.com/hackathon",
+    "source_url": "https://islerteknoloji.com/hackathon",
+    "description": "Öğrenmeyi daha eğlenceli hale getiren eğitici oyunlar geliştirilen 24 saatlik game jam; ekip liderleri masaları gezip mentorluk yapıyor, Cumartesi final jürisi değerlendiriyor.",
+    "eligibility": "2–3 kişilik takımlar; yazılımcı, tasarımcı, eğitimci veya oyun meraklısı herkes. Başvuruda her üyenin CV'si (PDF) isteniyor.",
+    "tags": [
+      "hackathon",
+      "game jam",
+      "edtech",
+      "istanbul"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "Ankara Keçisi Teknoloji ve İnovasyon Fikir Maratonu",
+    "organization": "Ankara Kalkınma Ajansı",
+    "category": "yarisma",
+    "location": "Ankara",
+    "work_mode": "yerinde",
+    "country": "Türkiye",
+    "deadline": "2026-11-20",
+    "opens_at": null,
+    "deadline_note": "Son başvuru 20 Kasım 2026, 17:00. Fikir maratonu 30 Kasım 2026'da Ankara'da.",
+    "apply_url": "https://ankaraka.org.tr/ankara-kecisi-teknoloji-ve-inovasyon-fikir-maratonu",
+    "source_url": "https://ankaraka.org.tr/ankara-kecisi-teknoloji-ve-inovasyon-fikir-maratonu",
+    "description": "Sanayi ve Teknoloji Bakanlığı'nın \"Anadoludakiler: 81 İl 81 Ürün\" programı kapsamında Ankara Keçisi ve tiftik değer zincirindeki sorunlara yapay zekâ, IoT, tarım teknolojileri, yazılım ve veri, robotik, AR/VR gibi teknolojilerle çözüm fikirleri geliştirilen tek günlük ideathon. Ödüller: 350.000 TL, 250.000 TL ve 150.000 TL.",
+    "eligibility": "Teknoloji firmaları ve üniversitelerin fakülte, bölüm, TTO, araştırma merkezi veya girişimcilik birimlerinden 2–6 kişilik ekipler. Öğrenciler bölüm ya da üniversite girişimcilik birimi çatısı altında ekip kurarak katılabilir; başvuru fazlaysa ön değerlendirme yapılıyor.",
+    "tags": [
+      "ideathon",
+      "ankara",
+      "tarım teknolojileri",
+      "para ödülü"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "Gemini Prompt Arena – Üniversiteliler İçin Yapay Zekâ Yarışması",
+    "organization": "Ozworks Dijital Medya (isim sponsoru: Google Gemini)",
+    "category": "yarisma",
+    "location": "İstanbul",
+    "work_mode": "hibrit",
+    "country": "Türkiye",
+    "deadline": "2026-11-15",
+    "opens_at": null,
+    "deadline_note": "Başvurular 14 Ekim – 15 Kasım 2026. Online elemelerin ardından yarı final 29 Kasım, final 17–18 Aralık 2026'da İstanbul'da çekiliyor; finalistlerin ulaşım ve konaklaması karşılanıyor.",
+    "apply_url": "https://promptarena.com.tr/basvuru",
+    "source_url": "https://promptarena.com.tr/sss",
+    "description": "Gemini ile üretim yapılan, online kapışmalarla ilerleyen ve 20 kişilik ana kadronun İstanbul'da yarıştığı yapay zekâ/prompt yarışması; büyük ödül 1 milyon TL.",
+    "eligibility": "Türkiye'de YÖK'e bağlı yükseköğretim kurumlarında kayıtlı ön lisans, lisans ve yüksek lisans öğrencileri. Başvuruda yapay zekâyla üretilmiş bir çalışma isteniyor.",
+    "tags": [
+      "yapay zekâ",
+      "prompt",
+      "gemini",
+      "istanbul",
+      "para ödülü"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "2026 Epic AI MegaJam (Unreal Engine / UEFN)",
+    "organization": "Epic Games (itch.io)",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-11-15",
+    "opens_at": null,
+    "deadline_note": "Jam 12–15 Kasım 2026; teslimler itch.io'da 16 Kasım sabahı kapanıyor. İsteyenler için 14–15 Kasım'da San Francisco'da yüz yüze buluşma da var (bilet gerekli).",
+    "apply_url": "https://itch.io/jam/2026-epic-ai-megajam",
+    "source_url": "https://itch.io/jam/2026-epic-ai-megajam",
+    "description": "Dört günde, en fazla beş kişilik takım ve istenildiği kadar yapay zekâ ajanıyla Unreal Engine veya UEFN'de oynanabilir oyun geliştirme yarışması. 65.000 dolar nakit ödül ve takım başına 50.000 dolara kadar geliştirme hibesi.",
+    "eligibility": "Aktif Epic Games hesabı olan 18 yaş üstü geliştiriciler, her yerden çevrim içi katılım. Resmi kurallar Türkçe de yayınlanmış; ülke uygunluğunu kurallardan teyit edin.",
+    "tags": [
+      "game jam",
+      "unreal engine",
+      "yapay zekâ",
+      "online"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "Zoud GameLab – Financial Literacy Game Jam",
+    "organization": "Zoud (BAE) & Global Game Jam",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-11-15",
+    "opens_at": null,
+    "deadline_note": "Teslimler 15 Kasım 2026, 23:59 (AoE) kapanıyor.",
+    "apply_url": "https://itch.io/jam/zoud-gamelab",
+    "source_url": "https://itch.io/jam/zoud-gamelab",
+    "description": "Finansal okuryazarlık kavramlarını oyun mekaniklerine dönüştüren tamamen çevrim içi game jam; toplamda 140.000 dolara kadar ödül ve geliştirme desteği.",
+    "eligibility": "15 Kasım 2026 itibarıyla 18 yaşını doldurmuş, dünyanın her yerinden katılımcılar.",
+    "tags": [
+      "game jam",
+      "fintech",
+      "online"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "AI GENESIS 2026 – Orta Doğu'nun En Büyük YZ Hackathonu",
+    "organization": "lablab.ai & /function1",
+    "category": "yarisma",
+    "location": "Dubai",
+    "work_mode": "hibrit",
+    "country": "Birleşik Arap Emirlikleri",
+    "deadline": null,
+    "opens_at": null,
+    "deadline_note": "Kayıt açık; online geliştirme, Dubai'deki yerinde gün ve sunum tarihleri henüz açıklanmadı. Yerinde aşamaya seçilenlerin ulaşım ve konaklaması karşılanmıyor.",
+    "apply_url": "https://lablab.ai/ai-hackathons/ai-genesis-2026",
+    "source_url": "https://lablab.ai/ai-hackathons/ai-genesis-2026",
+    "description": "Çevrim içi başlayıp /function1 konferansında canlı sunumlarla biten küresel hibrit yapay zekâ hackathonu; mentor desteği, tek başına veya takımla katılım.",
+    "eligibility": "Herkese açık; çevrim içi aşamaya her yerden katılınabiliyor.",
+    "tags": [
+      "hackathon",
+      "yapay zekâ",
+      "online",
+      "lablab"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "Global Game Jam 2027",
+    "organization": "Global Game Jam",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "hibrit",
+    "country": "Online",
+    "deadline": null,
+    "opens_at": null,
+    "deadline_note": "Jam 25–31 Ocak 2027. Katılımcılar yerel jam mekânları (Türkiye'deki üniversite ve topluluk mekânları dahil) veya çevrim içi mekânlar üzerinden kaydoluyor; kayıt tarihi mekâna göre değişiyor. Mekân kayıtları şu an açık.",
+    "apply_url": "https://globalgamejam.org/",
+    "source_url": "https://globalgamejam.org/",
+    "description": "Dünyanın en büyük game jam'i: aynı tema üzerinde dünya genelinde binlerce mekânda eş zamanlı oyun geliştirme.",
+    "eligibility": "Herkese açık; yerel mekânların kendi kuralları olabilir.",
+    "tags": [
+      "game jam",
+      "global",
+      "takım"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "Solana Hackathon (MLH)",
+    "organization": "Major League Hacking & Solana",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-11-06",
+    "opens_at": null,
+    "deadline_note": "Hackathon 6–8 Kasım 2026, çevrim içi (ABD Doğu saatiyle 6 Kasım 12:00 – 8 Kasım 14:00).",
+    "apply_url": "https://events.mlh.com/events/15200-solana-hackathon",
+    "source_url": "https://events.mlh.com/events/15200-solana-hackathon",
+    "description": "Solana üzerinde hızlı ve ucuz işlemlerle çalışan uygulamalar geliştirilen hafta sonu hackathonu; blokzincir deneyimi şart değil.",
+    "eligibility": "MLH etkinliği; çevrim içi, öğrenciler ve yeni başlayanlar dahil herkese açık.",
+    "tags": [
+      "hackathon",
+      "web3",
+      "solana",
+      "online",
+      "mlh"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "AMD Global Physical AI Behavioral Safety Challenge (Zindi)",
+    "organization": "AMD (yürütücü: Zindi)",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": null,
+    "opens_at": "2026-11-10",
+    "deadline_note": "Zindi'de 4 Kasım itibarıyla \"6 gün sonra başlıyor\" yazıyor; kapanış tarihi henüz açıklanmadı. Bu 1. aşama; ilk 40 takım 2. aşamaya davet ediliyor.",
+    "apply_url": "https://zindi.world/competitions/amd-global-physical-ai-safety-challenge",
+    "source_url": "https://zindi.world/competitions/amd-global-physical-ai-safety-challenge/rules",
+    "description": "Robotların yakınındaki insanların hareketini ve çarpışma riskini önceden tahmin eden modeller geliştirme yarışması (CHICO Pose Forecasting verisi + sentetik senaryolar); kodlar Gazebo/MuJoCo/Genesis simülasyonunda test ediliyor. 10.000 dolar ödül.",
+    "eligibility": "Herkese açık; ödül için AMD AI Developer Program hesabı ve AMD ROCm sertifikası gerekiyor.",
+    "tags": [
+      "robotik",
+      "zaman serisi",
+      "yapay zekâ",
+      "zindi",
+      "online"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "Green Rising Methane Innovation Challenge (Zindi)",
+    "organization": "Green Rising (yürütücü: Zindi)",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2027-02-14",
+    "opens_at": "2026-11-13",
+    "deadline_note": "Yarışma 13 Kasım 2026'da açılıyor, 14 Şubat 2027'de kapanıyor.",
+    "apply_url": "https://zindi.world/competitions/green-rising-methane-innovation-challenge",
+    "source_url": "https://zindi.world/competitions/green-rising-methane-innovation-challenge/rules",
+    "description": "Altı kıtadaki 59 izleme istasyonunda günlük metan yoğunluğunu 5 gün ileriye tahmin etme yarışması; tahminler henüz gerçekleşmemiş ölçümlerle puanlanıyor. 10.000 dolar ödül.",
+    "eligibility": "Herkese açık küresel yarışma.",
+    "tags": [
+      "zaman serisi",
+      "iklim",
+      "tahmin",
+      "zindi",
+      "online"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "SemEval-2027 Paylaşılan Görevleri (Shared Tasks)",
+    "organization": "SemEval / ACL 2027",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2027-01-31",
+    "opens_at": null,
+    "deadline_note": "Eğitim verileri yayınlandı; değerlendirme 10–31 Ocak 2027 (bazı görevlerde daha erken bitebilir). Sistem makaleleri Şubat 2027'de, çalıştay ACL 2027 ile Kyoto'da (Ağustos 2027).",
+    "apply_url": "https://semeval.github.io/SemEval2027/tasks",
+    "source_url": "https://semeval.github.io/SemEval2027/",
+    "description": "Doğal dil işlemede her yıl düzenlenen akademik değerlendirme yarışması; her görev ayrı bir NLP problemi. Katılan takımlar sistem makalesi yazıp ACL çalıştayında yayınlayabiliyor.",
+    "eligibility": "Herkese açık; görev sayfalarından ayrı ayrı kayıt olunuyor.",
+    "tags": [
+      "nlp",
+      "akademik",
+      "yayın",
+      "online",
+      "llm"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "GitHub Game Off 2026 (tema: SHIFT)",
+    "organization": "GitHub (itch.io)",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-12-01",
+    "opens_at": null,
+    "deadline_note": "Kasım ayı boyunca sürüyor; teslimler 2 Aralık 2026 gece yarısı (Türkiye saatiyle 00:37) kapanıyor.",
+    "apply_url": "https://itch.io/jam/game-off-2026",
+    "source_url": "https://itch.io/jam/game-off-2026",
+    "description": "GitHub'ın her yıl düzenlediği bir aylık game jam'i; istenen dil, motor ve kütüphane kullanılabiliyor. 2026 teması: SHIFT.",
+    "eligibility": "Herkese açık; bireysel veya takım.",
+    "tags": [
+      "game jam",
+      "github",
+      "online"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "GlacierCTF 2026",
+    "organization": "LosFuzzys",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-11-20",
+    "opens_at": null,
+    "deadline_note": "Yarışma 20 Kasım 21:00 – 21 Kasım 21:00 (Türkiye saati), 24 saat; kayıt genellikle yarışma bitene kadar açık. Tarihler CTFtime'dan.",
+    "apply_url": "https://glacierctf.com/",
+    "source_url": "https://ctftime.org/event/3337/",
+    "description": "Takım halinde çevrim içi oynanan jeopardy tipi siber güvenlik yarışması (CTF): web, kriptografi, tersine mühendislik, pwn ve adli bilişim soruları. CTFtime'da yüksek ağırlıklı (prestijli) etkinliklerden.",
+    "eligibility": "Herkese açık (CTFtime: Open), ücretsiz; tek başına veya takımla katılım.",
+    "tags": [
+      "ctf",
+      "siber güvenlik",
+      "online",
+      "takım"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "LakeCTF Quals 26-27",
+    "organization": "EPFL – polygl0ts",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-11-27",
+    "opens_at": null,
+    "deadline_note": "Yarışma 27 Kasım 21:00 – 28 Kasım 21:00 (Türkiye saati); finaller EPFL'de; kayıt genellikle yarışma bitene kadar açık. Tarihler CTFtime'dan.",
+    "apply_url": "https://lakectf.epfl.ch/",
+    "source_url": "https://ctftime.org/event/3474/",
+    "description": "Takım halinde çevrim içi oynanan jeopardy tipi siber güvenlik yarışması (CTF): web, kriptografi, tersine mühendislik, pwn ve adli bilişim soruları. CTFtime'da yüksek ağırlıklı (prestijli) etkinliklerden.",
+    "eligibility": "Herkese açık (CTFtime: Open), ücretsiz; tek başına veya takımla katılım.",
+    "tags": [
+      "ctf",
+      "siber güvenlik",
+      "online",
+      "takım"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "bi0sCTF 2026",
+    "organization": "Team bi0s (Amrita)",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-12-05",
+    "opens_at": null,
+    "deadline_note": "Yarışma 5 Aralık 08:00 – 6 Aralık 20:00 (Türkiye saati); kayıt genellikle yarışma bitene kadar açık. Tarihler CTFtime'dan.",
+    "apply_url": "https://ctf.bi0s.in/",
+    "source_url": "https://ctftime.org/event/3480/",
+    "description": "Takım halinde çevrim içi oynanan jeopardy tipi siber güvenlik yarışması (CTF): web, kriptografi, tersine mühendislik, pwn ve adli bilişim soruları. CTFtime'da yüksek ağırlıklı (prestijli) etkinliklerden.",
+    "eligibility": "Herkese açık (CTFtime: Open), ücretsiz; tek başına veya takımla katılım.",
+    "tags": [
+      "ctf",
+      "siber güvenlik",
+      "online",
+      "takım"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "niteCTF 2026",
+    "organization": "Cryptonite (MIT Manipal)",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-12-11",
+    "opens_at": null,
+    "deadline_note": "Yarışma 11 Aralık 15:00 – 13 Aralık 15:00 (Türkiye saati); kayıt genellikle yarışma bitene kadar açık. Tarihler CTFtime'dan.",
+    "apply_url": "https://nitectf.cryptonitemit.in/",
+    "source_url": "https://ctftime.org/event/3367/",
+    "description": "Takım halinde çevrim içi oynanan jeopardy tipi siber güvenlik yarışması (CTF): web, kriptografi, tersine mühendislik, pwn ve adli bilişim soruları. CTFtime'da yüksek ağırlıklı (prestijli) etkinliklerden.",
+    "eligibility": "Herkese açık (CTFtime: Open), ücretsiz; tek başına veya takımla katılım.",
+    "tags": [
+      "ctf",
+      "siber güvenlik",
+      "online",
+      "takım"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "BackdoorCTF 2026",
+    "organization": "InfoSecIITR (IIT Roorkee)",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-12-19",
+    "opens_at": null,
+    "deadline_note": "Yarışma 19 Aralık 15:00 – 20 Aralık 15:00 (Türkiye saati); kayıt genellikle yarışma bitene kadar açık. Tarihler CTFtime'dan.",
+    "apply_url": "https://backdoor.infoseciitr.in/",
+    "source_url": "https://ctftime.org/event/3472/",
+    "description": "Takım halinde çevrim içi oynanan jeopardy tipi siber güvenlik yarışması (CTF): web, kriptografi, tersine mühendislik, pwn ve adli bilişim soruları. CTFtime'da yüksek ağırlıklı (prestijli) etkinliklerden.",
+    "eligibility": "Herkese açık (CTFtime: Open), ücretsiz; tek başına veya takımla katılım.",
+    "tags": [
+      "ctf",
+      "siber güvenlik",
+      "online",
+      "takım"
+    ],
     "verified_at": "2026-11-04"
   }
 ]

@@ -1,0 +1,93 @@
+[
+  {
+    "title": "ODTÜ Teknokent Eğitim Teknolojileri (EdTech) Hackathonu",
+    "organization": "ODTÜ Teknokent Girişimcilik",
+    "category": "yarisma",
+    "location": "Ankara",
+    "work_mode": "yerinde",
+    "country": "Türkiye",
+    "deadline": null,
+    "opens_at": null,
+    "deadline_note": "Son kayıt tarihi sayfada belirtilmemiş. Hackathon 28 Kasım 2026 12:00 – 29 Kasım 2026 17:00, ODTÜ Bilişim Vadisi CoZone – EventZone 1. Kayıt, ODTÜ Teknokent Girişimcilik sitesine giriş yapılarak form ile.",
+    "apply_url": "https://girisimcilik.odtuteknokent.com.tr/events/edtech-hackaton",
+    "source_url": "https://girisimcilik.odtuteknokent.com.tr/events/edtech-hackaton",
+    "description": "Eğitim alanındaki gerçek problemlere teknoloji odaklı çözümler geliştirilen 24 saatlik hackathon; uzman mentor desteğiyle ekipler projelerini geliştirip jüriye sunuyor.",
+    "eligibility": "Herkese açık (Public) olarak duyurulmuş; ödül ve katılım şartları sayfada yazmıyor.",
+    "tags": [
+      "hackathon",
+      "edtech",
+      "ankara",
+      "odtü teknokent"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "Türkiye Siber Vatan Programı 2027 Dönemi (Yapay Zekâ Destekli Siber Güvenlik Yetenek Programı)",
+    "organization": "Sanayi ve Teknoloji Bakanlığı Kalkınma Ajansları Genel Müdürlüğü & 26 Kalkınma Ajansı",
+    "category": "egitim",
+    "location": null,
+    "work_mode": "hibrit",
+    "country": "Türkiye",
+    "deadline": "2026-11-06",
+    "opens_at": null,
+    "deadline_note": "Başvurular 6 Kasım 2026'ya uzatıldı. Başvuru, öğrencinin seçtiği ilin bağlı olduğu kalkınma ajansı bölgesi adına alınıyor (Ankara için Ankara Kalkınma Ajansı); yüz yüze eğitim aynı bölgedeki başka bir ilde olabilir.",
+    "apply_url": "https://sibervatan.org/basvurular",
+    "source_url": "https://bebka.org.tr/turkiye-siber-vatan-programi-2027-donemi-basvurulari-6-kasima-2026-tarihine-kadar-uzatildi/",
+    "description": "Yaklaşık üç aylık çevrim içi eğitim ve değerlendirmenin ardından başarılı öğrencilere yüz yüze sızma testi ve siber güvenlikte yapay zekâ eğitimleri, Yapay Zekâ Destekli CTF Yarışması ve yedi günlük Siber Vatan BootCamp. Başarılı katılımcılar Siber Vatan takımlarında yer alabiliyor; katılım belgesi, sertifika ve ödül veriliyor.",
+    "eligibility": "26 yaşını doldurmamış T.C. vatandaşı üniversite öğrencileri (açık öğretim, ön lisans, lisans, yüksek lisans; bölüm farkı yok), adli sicil kaydı temiz. Yüz yüze eğitimlere (1 hafta) tam katılım şart.",
+    "tags": [
+      "siber güvenlik",
+      "yapay zekâ",
+      "ctf",
+      "bootcamp",
+      "ücretsiz",
+      "kalkınma ajansı"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "DSH Hacks V2 – AI x Healthcare (Devpost)",
+    "organization": "DeltaForge Hacks, NXT Horizon & STEMise",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": "2026-11-15",
+    "opens_at": null,
+    "deadline_note": "Teslim son günü 15 Kasım 2026, 10:45 (Türkiye saati).",
+    "apply_url": "https://dsh-hacks-v2.devpost.com/",
+    "source_url": "https://dsh-hacks-v2.devpost.com/",
+    "description": "Gerçek bir sağlık problemini seçip yapay zekâ destekli teknik bir çözüm (tanı aracı, hasta bakım platformu vb.) geliştirilen küresel, çevrim içi öğrenci yarışması. Gençlerin kurduğu üç organizasyon düzenliyor; ödüller nakit değil (sponsor ödülleri).",
+    "eligibility": "13 yaş üstü tüm öğrencilere açık, bireysel veya takım; katılımcıların büyük kısmı lise öğrencisi.",
+    "tags": [
+      "hackathon",
+      "yapay zekâ",
+      "sağlık",
+      "online",
+      "devpost"
+    ],
+    "verified_at": "2026-11-04"
+  },
+  {
+    "title": "Cosmo Hacks 2026 (Üniversite kategorisi dahil)",
+    "organization": "Cosmo Hacks",
+    "category": "yarisma",
+    "location": null,
+    "work_mode": "uzaktan",
+    "country": "Online",
+    "deadline": null,
+    "opens_at": null,
+    "deadline_note": "Hackathon 19 Aralık 2026 – 18 Ocak 2027, çevrim içi; kayıt son tarihi sitede belirtilmemiş.",
+    "apply_url": "https://www.cosmohacks.com/",
+    "source_url": "https://www.cosmohacks.com/",
+    "description": "Öğrencilere yönelik ücretsiz, çevrim içi hackathon; 2026 teması öğrenciler, okullar veya yerel topluluklar için tek bir net problemi çözen teknoloji projeleri. En fazla 4 kişilik takımlar.",
+    "eligibility": "Okul öğrencileri (13–18) ve üniversite/lisansüstü öğrencileri için ayrı değerlendirme kategorileri var.",
+    "tags": [
+      "hackathon",
+      "öğrenci",
+      "online",
+      "ücretsiz"
+    ],
+    "verified_at": "2026-11-04"
+  }
+]

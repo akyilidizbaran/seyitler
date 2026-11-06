@@ -13,7 +13,13 @@
     "source_url": "https://gradschool.princeton.edu/admission-onboarding/prepare/application-deadlines",
     "description": "Princeton Bilgisayar Bilimi bölümünün Güz 2027 doktora alımı. Makine öğrenmesi, NLP, bilgisayarlı görü ve sistemler alanlarında güçlü gruplar var. ABD'deki doktora programlarında olduğu gibi kabul alan öğrenciler genellikle burs ve maaşla desteklenir.",
     "eligibility": "Lisans derecesi ile doğrudan doktoraya başvurulabilir; son sınıf öğrencileri mezuniyet öncesinde başvurur. Kişi yılda yalnızca tek bir programa başvurabilir. İngilizce yeterlik belgesi gerekir.",
-    "tags": ["doktora", "abd", "princeton", "bilgisayar bilimi", "yapay zeka"],
+    "tags": [
+      "doktora",
+      "abd",
+      "princeton",
+      "bilgisayar bilimi",
+      "yapay zeka"
+    ],
     "verified_at": "2026-10-12"
   },
   {
@@ -30,7 +36,13 @@
     "source_url": "https://gradapp.gatech.edu/portal/program-info",
     "description": "Dokuz farklı okulun ortak yürüttüğü, doğrudan makine öğrenmesi alanında verilen disiplinlerarası doktora programı. Öğrenci bir 'ev sahibi okul' seçerek başvurur ve o okulun koşullarına tabi olur.",
     "eligibility": "Lisans derecesi ile başvurulabilir. Başvuru koşulları ve gerekli belgeler seçilen ev sahibi okula göre değişir; İngilizce yeterlik belgesi gerekir.",
-    "tags": ["doktora", "abd", "georgia tech", "makine öğrenmesi", "yapay zeka"],
+    "tags": [
+      "doktora",
+      "abd",
+      "georgia tech",
+      "makine öğrenmesi",
+      "yapay zeka"
+    ],
     "verified_at": "2026-10-12"
   },
   {
@@ -47,7 +59,13 @@
     "source_url": "https://www.cs.columbia.edu/education/phd/admissions/",
     "description": "Columbia Bilgisayar Bilimi doktorası. Bölüme göre kabul edilen öğrencilerin çoğu araştırma asistanlığı ile aylık maaş ve tam harç muafiyeti alır; az sayıda öğrenciye Presidential Distinguished Fellowship verilir.",
     "eligibility": "Lisans derecesi ile başvurulabilir; son sınıf öğrencileri mezuniyet öncesinde başvurur. İngilizce yeterlik belgesi gerekir.",
-    "tags": ["doktora", "abd", "columbia", "bilgisayar bilimi", "yapay zeka"],
+    "tags": [
+      "doktora",
+      "abd",
+      "columbia",
+      "bilgisayar bilimi",
+      "yapay zeka"
+    ],
     "verified_at": "2026-10-12"
   },
   {
@@ -64,41 +82,13 @@
     "source_url": "https://siebelschool.illinois.edu/admissions/graduate/application-deadlines",
     "description": "ABD'nin en büyük ve en güçlü bilgisayar bilimi bölümlerinden birinde Güz 2027 doktora alımı. Makine öğrenmesi, veri sistemleri ve yapay zeka alanlarında geniş araştırma grupları var.",
     "eligibility": "Lisans derecesi ile doğrudan doktoraya başvurulabilir. İngilizce yeterlik belgesi gerekir; GRE isteğe bağlıdır.",
-    "tags": ["doktora", "abd", "uiuc", "bilgisayar bilimi", "veri bilimi"],
-    "verified_at": "2026-10-12"
-  },
-  {
-    "title": "YouCam API Skin AI & eCommerce VTO Hackathon",
-    "organization": "Perfect Corp. (yürütücü: Devpost)",
-    "category": "yarisma",
-    "location": null,
-    "work_mode": "uzaktan",
-    "country": "Online",
-    "deadline": "2026-11-02",
-    "opens_at": null,
-    "deadline_note": "Gönderim dönemi 29 Eylül – 2 Kasım 2026, 11:45 Doğu saati (TSİ 19:45). Değerlendirme 3–20 Kasım, kazananlar ~24 Kasım 2026. Türkiye kısıtlı ülkeler listesinde değil (resmî kurallar, 12.10.2026).",
-    "apply_url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
-    "source_url": "https://youcam-api-skin-ai-ecommerce.devpost.com/rules",
-    "description": "Perfect Corp.'un YouCam API'lerinden (cilt analizi, sanal deneme / virtual try-on) en az birini kullanan, tüketiciye ya da e-ticarete değer katan çalışan bir uygulama geliştirme yarışması. Toplam ödül 6.000 dolar.",
-    "eligibility": "Yaşadığı ülkede reşit olan bireyler, takımlar ve kuruluşlar katılabilir. Önceden var olan projeler, yarışma döneminde önemli ölçüde güncellenmişse kabul edilir.",
-    "tags": ["hackathon", "devpost", "bilgisayarli-goru", "e-ticaret", "online", "odullu"],
-    "verified_at": "2026-10-12"
-  },
-  {
-    "title": "Meta Horizon Start Developer Competition 2026",
-    "organization": "Meta (yürütücü: Devpost)",
-    "category": "yarisma",
-    "location": null,
-    "work_mode": "uzaktan",
-    "country": "Online",
-    "deadline": "2026-11-18",
-    "opens_at": null,
-    "deadline_note": "Gönderim dönemi 24 Eylül – 18 Kasım 2026, 12:00 Pasifik saati (TSİ 23:00). Değerlendirme ~9 Aralık'a kadar, kazananlar ~11 Aralık 2026. Türkiye kısıtlı ülkeler arasında değil (resmî kurallar, 12.10.2026).",
-    "apply_url": "https://start-developer-competition-26.devpost.com/",
-    "source_url": "https://start-developer-competition-26.devpost.com/rules",
-    "description": "Meta Quest cihazları için VR/MR uygulaması geliştirme yarışması; Oyun, Eğlence ve Üretkenlik track'leri var ve toplam ödül havuzu 1 milyon dolar. El takibi (hands-first) tasarım zorunlu; demo videosu Quest cihazı yerine XR Simulator ile de çekilebilir. Yapay zeka destekli deneyimler de kabul ediliyor.",
-    "eligibility": "18 yaşını doldurmuş, Developer Access açık bir Meta hesabı olan bireyler, takımlar ve kuruluşlar katılabilir. Proje ya yarışma döneminde sıfırdan yapılmalı ya da var olan bir uygulamaya bu dönemde önemli bir yeni özellik eklenmiş olmalı.",
-    "tags": ["hackathon", "devpost", "vr", "meta", "online", "odullu"],
+    "tags": [
+      "doktora",
+      "abd",
+      "uiuc",
+      "bilgisayar bilimi",
+      "veri bilimi"
+    ],
     "verified_at": "2026-10-12"
   }
 ]

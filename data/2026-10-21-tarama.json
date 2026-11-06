@@ -13,7 +13,13 @@
     "source_url": "https://www.linkedin.com/jobs/view/4480456599/",
     "description": "Katılım bankacılığı ve finansal teknoloji alanında yazılım geliştiren Architecht'in dönem içi part-time öğrenci programı. Öğrenciler haftada en az 2 gün çalışır.",
     "eligibility": "Örgün lisans programında 3. veya 4. sınıf öğrencisi; Bilgisayar, Yazılım, Yapay Zekâ, Endüstri, Matematik, Elektrik-Elektronik Mühendisliği veya YBS; alttan dersi olmamak ve GANO en az 2,75; haftada en az 2 gün çalışabilmek.",
-    "tags": ["part-time", "fintech", "bankacılık", "istanbul", "yazılım"],
+    "tags": [
+      "part-time",
+      "fintech",
+      "bankacılık",
+      "istanbul",
+      "yazılım"
+    ],
     "verified_at": "2026-10-21"
   },
   {
@@ -30,7 +36,13 @@
     "source_url": "https://www.linkedin.com/jobs/view/4480442492/",
     "description": "Sadakat ve oyunlaştırma platformları geliştiren B2B SaaS şirketinde .NET backend servisleri, API geliştirme ve veritabanı işlerinde öğrenci pozisyonu. Kodlama, test ve dokümantasyonda yapay zekâ destekli araçlar kullanılıyor.",
     "eligibility": "Bilgisayar, Yazılım Mühendisliği veya ilgili bölümde 3. ya da 4. sınıf öğrencisi; temel C#, .NET ve SQL bilgisi; haftada en az 3 gün çalışabilmek.",
-    "tags": ["part-time", "backend", ".net", "saas", "istanbul"],
+    "tags": [
+      "part-time",
+      "backend",
+      ".net",
+      "saas",
+      "istanbul"
+    ],
     "verified_at": "2026-10-21"
   },
   {
@@ -47,7 +59,13 @@
     "source_url": "https://www.linkedin.com/jobs/view/4480413003/",
     "description": "Sürü İHA ve FPV platformları geliştiren BTK Savunma'da Ar-Ge stajı. Yazılım tarafında test koşumları, simülasyon çalıştırma, veri düzenleme ve log toplama işlerine destek.",
     "eligibility": "Makine, Mekatronik, Elektrik-Elektronik, Bilgisayar/Yazılım veya Uçak-Uzay gibi ilgili bölümlerde öğrenci; en az 60 günlük dönem/işyeri stajı yapabilecek olmak.",
-    "tags": ["savunma", "iha", "ar-ge", "istanbul", "uzun staj"],
+    "tags": [
+      "savunma",
+      "iha",
+      "ar-ge",
+      "istanbul",
+      "uzun staj"
+    ],
     "verified_at": "2026-10-21"
   },
   {
@@ -64,7 +82,12 @@
     "source_url": "https://www.linkedin.com/jobs/view/4481563076/",
     "description": "Toyota'nın Sakarya fabrikasında üretim ve mühendislik süreçlerinde, mevcut projelerde çalışan part-time lisans öğrencisi programı. Fabrikada çalışılan günlerde konaklama ve ulaşım sağlanıyor.",
     "eligibility": "Mühendislik fakültesinde 3. veya 4. sınıf öğrencisi; haftada en az 2 gün fabrikada çalışabilmek; iyi düzeyde İngilizce.",
-    "tags": ["otomotiv", "part-time", "sakarya", "üretim"],
+    "tags": [
+      "otomotiv",
+      "part-time",
+      "sakarya",
+      "üretim"
+    ],
     "verified_at": "2026-10-21"
   },
   {
@@ -81,41 +104,12 @@
     "source_url": "https://www.linkedin.com/jobs/view/4481286728/",
     "description": "Okullarda yapay zekâ çağı için sınıf deneyimi tasarlayan AYKA'da, akademik ortaklarla yürütülen araştırmalara destek: literatür taraması, sınıf çalışmaları, öğrenci çıktıları ve öğrenme verisinin analizi.",
     "eligibility": "Eğitim, psikoloji, bilişsel bilim, HCI, bilgisayar bilimi veya ilgili bölüm öğrencisi; araştırma yöntemleri temeli ve güçlü akademik İngilizce. Python/R, deney tasarımı ve learning analytics artı.",
-    "tags": ["araştırma", "eğitim teknolojisi", "learning analytics", "ankara"],
-    "verified_at": "2026-10-21"
-  },
-  {
-    "title": "Build With AI: Basics Hackathon",
-    "organization": "Devpost",
-    "category": "yarisma",
-    "location": null,
-    "work_mode": "uzaktan",
-    "country": "Online",
-    "deadline": "2026-10-26",
-    "opens_at": null,
-    "deadline_note": "Resmi kurallara göre kayıt ve gönderim 22 Eylül – 26 Ekim 2026, 17:00 ET (TSİ 27 Ekim 00:00). Kazananlar 4 Kasım civarında açıklanır.",
-    "apply_url": "https://learn-ai-basics.devpost.com/",
-    "source_url": "https://learn-ai-basics.devpost.com/rules",
-    "description": "Devpost Learn skill paketiyle bir kodlama ajanı (Claude Code, Codex vb.) kullanarak çalışan bir yazılım prototipi geliştirme yarışması. Toplam 2.500 $ ödül; birinciye 1.250 $.",
-    "eligibility": "Yaşadığı ülkede reşit olan bireyler ve takımlar; ABD yaptırımlı ülkeler, Brezilya ve Quebec hariç (Türkiye uygun).",
-    "tags": ["online", "llm", "ajan", "devpost"],
-    "verified_at": "2026-10-21"
-  },
-  {
-    "title": "Learn AR with SPECS Hackathon",
-    "organization": "Snap Inc. (yürütücü: Devpost)",
-    "category": "yarisma",
-    "location": null,
-    "work_mode": "uzaktan",
-    "country": "Online",
-    "deadline": "2026-11-09",
-    "opens_at": null,
-    "deadline_note": "Resmi kurallara göre kayıt ve gönderim 15 Ekim – 9 Kasım 2026, 17:00 ET (TSİ 10 Kasım 01:00). Kazananlar 19 Kasım civarında açıklanır.",
-    "apply_url": "https://learn-specs.devpost.com/",
-    "source_url": "https://learn-specs.devpost.com/rules",
-    "description": "Lens Studio ve bir kodlama ajanıyla Snap SPECS gözlükleri için artırılmış gerçeklik Lens'i geliştirme yarışması. Toplam 2.500 $ ödül.",
-    "eligibility": "Yaşadığı ülkede reşit olan bireyler ve takımlar; ABD yaptırımlı ülkeler, Brezilya ve Quebec hariç (Türkiye uygun).",
-    "tags": ["online", "ar", "devpost", "llm"],
+    "tags": [
+      "araştırma",
+      "eğitim teknolojisi",
+      "learning analytics",
+      "ankara"
+    ],
     "verified_at": "2026-10-21"
   },
   {
@@ -132,7 +126,11 @@
     "source_url": "https://www.youthall.com/tr/etkinlikler/engineering-career-summit-online/",
     "description": "Mühendislik şirketlerinin ve sektör profesyonellerinin katıldığı online kariyer zirvesi. Katılımcılara katılım belgesi veriliyor.",
     "eligibility": "Mühendislik bölümlerinde lisans ve yüksek lisans öğrencileri ile yeni mezunlar; üniversite sınırı yok.",
-    "tags": ["kariyer", "online", "mühendislik"],
+    "tags": [
+      "kariyer",
+      "online",
+      "mühendislik"
+    ],
     "verified_at": "2026-10-21"
   }
 ]

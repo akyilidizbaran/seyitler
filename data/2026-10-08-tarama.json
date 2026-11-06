@@ -468,55 +468,6 @@
     "verified_at": "2026-10-08"
   },
   {
-    "title": "Life After Code – GitLab Transcend Hackathon",
-    "organization": "GitLab (yürütücü: Devpost)",
-    "category": "yarisma",
-    "location": "Online",
-    "work_mode": "uzaktan",
-    "country": "Global",
-    "deadline": "2026-10-27",
-    "opens_at": "2026-09-29",
-    "deadline_note": "Devpost resmi kurallar sayfasından doğrulandı: kayıt 29 Eylül 2026 – 27 Ekim 2026 13:00 UTC, gönderim 5 Ekim – 27 Ekim 2026 13:00 UTC (TSİ 16:00). Kazananlar ~16 Kasım 2026'da açıklanacak.",
-    "apply_url": "https://gitlab-transcend.devpost.com/",
-    "source_url": "https://gitlab-transcend.devpost.com/rules",
-    "description": "GitLab Duo Agent Platform ile kod incelemesi, güvenlik taraması, test, uyumluluk, deployment ve izleme gibi DevSecOps yaşam döngüsü adımlarını otomatikleştiren ajanlar ve akışlar geliştirilen çevrim içi hackathon. Toplam 45.000 $ nakit ödül var; jüride GitLab, Google ve Anthropic temsilcileri yer alıyor. Agentic AI ve MLOps ilgisi olan öğrenciler için portföy değeri yüksek.",
-    "eligibility": "İkamet ettiği ülkede reşit olan bireyler, takımlar veya kuruluşlar. Brezilya, Çin, Quebec, Rusya, Küba, İran, Kuzey Kore, Suriye, Kırım/Donetsk/Luhansk hariç; Türkiye katılabilir.",
-    "tags": [
-      "hackathon",
-      "agentic-ai",
-      "devsecops",
-      "online",
-      "ödüllü",
-      "devpost"
-    ],
-    "verified_at": "2026-10-08"
-  },
-  {
-    "title": "Build, Ship, Shape: Amazon Developer Hackathon",
-    "organization": "Amazon Developer (yürütücü: Devpost)",
-    "category": "yarisma",
-    "location": "Online",
-    "work_mode": "uzaktan",
-    "country": "Global",
-    "deadline": "2026-10-23",
-    "opens_at": "2026-08-31",
-    "deadline_note": "Devpost resmi kurallar sayfasından doğrulandı: gönderim dönemi 31 Ağustos 2026 – 23 Ekim 2026 12:00 PT (TSİ 22:00). Değerlendirme 9–20 Kasım, kazananlar ~3 Aralık 2026.",
-    "apply_url": "https://amazonappdev2026.devpost.com/",
-    "source_url": "https://amazonappdev2026.devpost.com/rules",
-    "description": "Fire TV, Alexa+, Ring ve Bee ürünleri için uygulama geliştirilen küresel çevrim içi hackathon; katılımcılar bir ana parkur seçip çalışan demo, kod deposu ve ürün geri bildirimi teslim ediyor. 138.000 $ nakit (nakit + AWS kredisiyle toplam ~190.000 $ değer) ödül ve parkur kazananlarına Amazon Developer ekibiyle birebir görüşme sunuluyor.",
-    "eligibility": "İkamet ettiği ülkede reşit olan bireyler, takımlar veya kuruluşlar; ABD yaptırımlarına tabi ülkeler, Brezilya ve Quebec hariç. Türkiye katılabilir.",
-    "tags": [
-      "hackathon",
-      "alexa",
-      "llm",
-      "online",
-      "ödüllü",
-      "devpost",
-      "amazon"
-    ],
-    "verified_at": "2026-10-08"
-  },
-  {
     "title": "Yeni Nesil Sağlık Hareketi Ideathonu 2026",
     "organization": "Sağlık Hakkı Derneği, AstraZeneca Türkiye & İhtiyaç Haritası",
     "category": "yarisma",

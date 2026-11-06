@@ -1,52 +1,5 @@
 [
   {
-    "title": "QNX Global Hackathon",
-    "organization": "QNX (BlackBerry) – Devpost",
-    "category": "yarisma",
-    "location": null,
-    "work_mode": "uzaktan",
-    "country": "Online",
-    "deadline": "2026-12-15",
-    "opens_at": null,
-    "deadline_note": "Kayıt ve proje teslimi 2 Kasım – 15 Aralık 2026 (ABD Doğu saatiyle 14:00, Türkiye saatiyle 22:00). Değerlendirme 15–29 Ocak 2027.",
-    "apply_url": "https://qnx.devpost.com/",
-    "source_url": "https://qnx.devpost.com/rules",
-    "description": "Ticari olmayan kullanım için ücretsiz olan QNX 8.0 gerçek zamanlı işletim sistemiyle serbest temalı proje yarışması: robotik, sürücü yazma, IoT ve yapay zekâ uygulamaları gibi projeler gönderilebiliyor. Toplam 50.000 dolar nakit ödül.",
-    "eligibility": "18 yaşından büyük bireyler, takımlar ve kurumlar. ABD yaptırımlarına tabi ülkeler ve Brezilya hariç tüm ülkelerden katılım açık; Türkiye kısıtlı ülkeler arasında değil.",
-    "tags": [
-      "hackathon",
-      "qnx",
-      "gömülü sistemler",
-      "iot",
-      "online",
-      "devpost"
-    ],
-    "verified_at": "2026-11-04"
-  },
-  {
-    "title": "Meta VR Start Developer Competition 2026",
-    "organization": "Meta – Devpost",
-    "category": "yarisma",
-    "location": null,
-    "work_mode": "uzaktan",
-    "country": "Online",
-    "deadline": "2026-11-18",
-    "opens_at": null,
-    "deadline_note": "Proje teslimi 18 Kasım 2026, ABD Pasifik saatiyle 12:00 (Türkiye saatiyle 23:00).",
-    "apply_url": "https://start-developer-competition-26.devpost.com/",
-    "source_url": "https://start-developer-competition-26.devpost.com/rules",
-    "description": "Meta VR cihazları (Meta Quest ve Meta VR Glasses) için eğlence, oyun ve üretkenlik uygulamaları geliştirme yarışması; el hareketleriyle doğal etkileşim öne çıkıyor. Toplam 1.000.000 dolar nakit ödül.",
-    "eligibility": "Reşit (18+) bireyler, takımlar ve kurumlar; katılım için Meta VR geliştirici hesabı ve Meta VR Start programı üyeliği gerekiyor. Brezilya, Quebec ve yaptırım uygulanan bölgeler hariç; Türkiye'den katılım açık.",
-    "tags": [
-      "hackathon",
-      "vr",
-      "meta quest",
-      "online",
-      "devpost"
-    ],
-    "verified_at": "2026-11-04"
-  },
-  {
     "title": "TÜBİTAK TBAE Bütünleşik Algılama ve Haberleşme (ISAC) Kış Okulu 2026",
     "organization": "TÜBİTAK Temel Bilimler Araştırma Enstitüsü (TBAE)",
     "category": "egitim",

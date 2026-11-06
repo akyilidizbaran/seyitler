@@ -248,53 +248,6 @@
     "verified_at": "2026-10-10"
   },
   {
-    "title": "IEEE ClimateChain Global Hackathon 2026",
-    "organization": "IEEE Turkey",
-    "category": "yarisma",
-    "location": "Çevrim içi",
-    "work_mode": "uzaktan",
-    "country": "Online",
-    "deadline": "2026-10-25",
-    "opens_at": "2026-10-05",
-    "deadline_note": "Devpost resmi sayfasında gönderim dönemi 5–25 Ekim 2026, son teslim 25 Ekim 2026 17:00 (MSK, TSİ ile aynı) olarak yazıyor; 10.10.2026'da kontrol edildi.",
-    "apply_url": "https://ieee-climatechain-hack.devpost.com/",
-    "source_url": "https://ieee-climatechain-hack.devpost.com/rules",
-    "description": "IEEE Türkiye'nin düzenlediği çevrim içi hackathon; iklim değişikliğine yönelik blokzincir ve yapay zekâ çözümleri (karbon takibi, iklim verisi analizi, şeffaflık vb.) geliştiriliyor. Toplam 3.000 $ nakit ödül var; demo videosu ve GitHub deposu ile teslim yapılıyor.",
-    "eligibility": "Yalnızca öğrenciler (lisans, yüksek lisans, doktora); 2–5 kişilik takımlar veya bireysel katılım; Devpost'un standart ülke kısıtları dışındaki tüm ülkeler, Türkiye dahil.",
-    "tags": [
-      "hackathon",
-      "yapay zeka",
-      "iklim",
-      "blokzincir",
-      "online",
-      "ieee"
-    ],
-    "verified_at": "2026-10-10"
-  },
-  {
-    "title": "Hack Apertus – İsviçre'nin Açık LLM'i Apertus ile Hackathon",
-    "organization": "aiLights Association (CSCS ve Phoeniqs desteğiyle)",
-    "category": "yarisma",
-    "location": "Çevrim içi (Büyük Final: St. Gallen, İsviçre – Mayıs 2027)",
-    "work_mode": "uzaktan",
-    "country": "Online",
-    "deadline": "2026-10-16",
-    "opens_at": "2026-10-01",
-    "deadline_note": "Devpost resmi sayfasında son teslim 16 Ekim 2026 12:00 CEST (13:00 TSİ) olarak yazıyor; en iyi projeler Mayıs 2027'de St. Gallen'deki büyük finale davet ediliyor. 10.10.2026'da kontrol edildi.",
-    "apply_url": "https://hackapertus.devpost.com/",
-    "source_url": "https://hackapertus.devpost.com/",
-    "description": "İsviçre'nin tamamen açık büyük dil modeli Apertus 1.5 (8B ve 70B) üzerinde iki haftalık çevrim içi hackathon. Red-teaming, 'Swiss Voices', akademik görevler ve serbest proje gibi kategoriler var; toplam ödül 10.680 €.",
-    "eligibility": "18 yaş ve üzeri; 1–5 kişilik takımlar; Devpost standart istisnaları (Brezilya, Kırım, Küba, İran, K. Kore, Quebec, Rusya) dışında tüm ülkeler, Türkiye dahil.",
-    "tags": [
-      "hackathon",
-      "llm",
-      "açık kaynak",
-      "red teaming",
-      "online"
-    ],
-    "verified_at": "2026-10-10"
-  },
-  {
     "title": "RSNA Knee Abnormality Detection (Kaggle)",
     "organization": "Radiological Society of North America (RSNA) / Kaggle",
     "category": "yarisma",

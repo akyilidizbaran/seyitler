@@ -13,7 +13,13 @@
     "source_url": "https://www.linkedin.com/jobs/view/4483921178/",
     "description": "Yarı iletken devi Analog Devices'ın İstanbul ofisindeki Developer Platforms ekibinde staj: iç uygulamaların geliştirilmesi, CI/CD iş akışlarının kurulması ve iyileştirilmesi, birim testi ve code review ile kod kalitesinin korunması. DevOps ve web teknolojilerine ilgi duyanlara uygun.",
     "eligibility": "Bilgisayar bilimi/mühendisliği lisans öğrencisi; en az 3 aylık staja uygun; Python, JavaScript/TypeScript veya shell ile yetkin; git, CI/CD, Docker ve Linux'a aşina.",
-    "tags": ["devops", "ci/cd", "docker", "istanbul", "yarı iletken"],
+    "tags": [
+      "devops",
+      "ci/cd",
+      "docker",
+      "istanbul",
+      "yarı iletken"
+    ],
     "verified_at": "2026-10-31"
   },
   {
@@ -30,7 +36,13 @@
     "source_url": "https://www.linkedin.com/jobs/view/4466880734/",
     "description": "Siemens Gebze şalt fabrikasının dijital dönüşüm ekibinde yarı zamanlı öğrenci pozisyonu: gerçek bir üretim ortamında kullanılan web uygulamalarının ön yüzünü geliştirme, REST API entegrasyonu ve yapay zekâ destekli geliştirme araçlarının kullanımı.",
     "eligibility": "Yazılım/bilgisayar mühendisliği veya ilgili bölümde 3. ya da 4. sınıf lisans veya yüksek lisans öğrencisi; haftada 2–3 gün Gebze'de çalışabilmek; HTML5, CSS ve JavaScript bilgisi.",
-    "tags": ["part-time", "frontend", "web", "üretim", "kocaeli"],
+    "tags": [
+      "part-time",
+      "frontend",
+      "web",
+      "üretim",
+      "kocaeli"
+    ],
     "verified_at": "2026-10-31"
   },
   {
@@ -47,7 +59,13 @@
     "source_url": "https://www.aselsan.com/tr/bootcamp",
     "description": "ASELSAN'ın seyrüsefer (navigasyon) sistemleri üzerine tek günlük yoğun eğitim programı: teknik sunumlar, ASELSAN teknik ekibiyle tanışma ve soru-cevap, ödüllü Kahoot yarışması. Programı tamamlayanlara katılım belgesi veriliyor.",
     "eligibility": "Yapay Zekâ Mühendisliği, Bilgisayar, Elektrik-Elektronik, Havacılık ve Uzay, Kontrol ve Otomasyon, Fizik, Makine ve Malzeme gibi bölümlerde 4. sınıf öğrencisi olmak ve ASELSAN işe alım kriterlerini sağlamak.",
-    "tags": ["savunma", "navigasyon", "ankara", "bootcamp", "4. sınıf"],
+    "tags": [
+      "savunma",
+      "navigasyon",
+      "ankara",
+      "bootcamp",
+      "4. sınıf"
+    ],
     "verified_at": "2026-10-31"
   },
   {
@@ -64,24 +82,12 @@
     "source_url": "https://euburs.org/compatibility",
     "description": "Avrupa Birliği finansmanıyla yürütülen, Türkiye'de yükseköğretime devam eden öğrencilere verilen karşılıksız burs. Puanlama hane geliri ve ek kriterlere (deprem, şehit/gazi yakını, engellilik vb.) göre yapılıyor; en fazla 3 yıl destek.",
     "eligibility": "T.C. vatandaşı (veya geçici/uluslararası koruma statüsünde), 18–35 yaş, mühendislik dahil listelenen fakültelerde lisans öğrencisi, GANO en az 2,50/4,00. Erasmus vb. ile yurt dışında bulunanlar başvuramaz.",
-    "tags": ["burs", "ab", "karşılıksız", "lisans"],
-    "verified_at": "2026-10-31"
-  },
-  {
-    "title": "Kiroween 2026 (Kiro Hackathon)",
-    "organization": "Amazon Web Services (Kiro) / Devpost",
-    "category": "yarisma",
-    "location": null,
-    "work_mode": "uzaktan",
-    "country": "Online",
-    "deadline": "2026-12-04",
-    "opens_at": null,
-    "deadline_note": "Gönderim dönemi 30 Ekim – 4 Aralık 2026, 14:00 PST (TSİ 5 Aralık 01:00). Resmi kurallarda Türkiye hariç tutulan ülkeler arasında yok (31.10.2026'da doğrulandı).",
-    "apply_url": "https://kiroween.devpost.com/",
-    "source_url": "https://kiroween.devpost.com/rules",
-    "description": "AWS'nin yapay zekâ destekli geliştirme ortamı Kiro'nun Cadılar Bayramı temalı online hackathon'u. Kiro ile açık uçlu bir proje geliştirip gönderiyorsun; toplam 100.000 $ nakit ödül.",
-    "eligibility": "Bulunduğu ülkede reşit olan herkes; en fazla 3 kişilik takımlar. Kurallarda listelenen bazı ülkeler (ör. İtalya, Brezilya, Rusya) hariç.",
-    "tags": ["hackathon", "online", "aws", "yapay zekâ", "ödüllü"],
+    "tags": [
+      "burs",
+      "ab",
+      "karşılıksız",
+      "lisans"
+    ],
     "verified_at": "2026-10-31"
   }
 ]

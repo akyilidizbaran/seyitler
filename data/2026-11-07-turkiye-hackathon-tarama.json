@@ -13,7 +13,13 @@
     "source_url": "https://www.yazgit.com/static/YAZGIT_Hackathon_Sartnamesi.pdf",
     "description": "Yapay zekâ ve görüntü işleme alanında, tema ve problemi etkinlik başında açıklanan yüz yüze hackathon. Ödüller: 30.000 TL, 20.000 TL ve 10.000 TL.",
     "eligibility": "Ön lisans ve lisans öğrencileri; 2–4 kişilik takımlar. Bireysel katılım yok, öğrenci belgesi gerekiyor.",
-    "tags": ["hackathon", "yapay zeka", "görüntü işleme", "ankara", "ödüllü"],
+    "tags": [
+      "hackathon",
+      "yapay zeka",
+      "görüntü işleme",
+      "ankara",
+      "ödüllü"
+    ],
     "verified_at": "2026-11-07"
   },
   {
@@ -30,7 +36,13 @@
     "source_url": "https://www.instagram.com/ieeeizu/p/DfUs6WtjppQ/",
     "description": "\"Yapay Zeka Destekli Yeni Nesil İletişim Çözümleri\" temalı, Techcareer destekli proje geliştirme yarışması. Ödül havuzu 225.000 TL. Ön eleme, formdan yüklenen fikir sunumuyla yapılıyor.",
     "eligibility": "Lisans öğrencileri; yalnızca 2–4 kişilik ekipler. E-Devlet onaylı öğrenci belgesi zorunlu. Ulaşım ve konaklama desteği duyuruda yer almıyor.",
-    "tags": ["hackathon", "yapay zeka", "telekom", "istanbul", "ödüllü"],
+    "tags": [
+      "hackathon",
+      "yapay zeka",
+      "telekom",
+      "istanbul",
+      "ödüllü"
+    ],
     "verified_at": "2026-11-07"
   },
   {
@@ -47,24 +59,13 @@
     "source_url": "https://hack.dev3pack.xyz/",
     "description": "Solana üzerinde geliştirme yapan öğrenci takımları için küresel hackathon. Çevrim içi veya yerel build station'dan katılınabiliyor; Türkiye'de Çanakkale ve Bursa listelenmiş. Ana ödül 10.000 $ üzeri.",
     "eligibility": "Dünya genelinden üniversite öğrencileri; takım büyüklüğü resmi sayfada belirtilmemiş.",
-    "tags": ["hackathon", "blockchain", "solana", "çevrim içi", "ödüllü"],
-    "verified_at": "2026-11-07"
-  },
-  {
-    "title": "EdTech Hackathon '26 – Game Jam",
-    "organization": "İşler Kitabevleri ve İşler Teknoloji",
-    "category": "yarisma",
-    "location": "İstanbul",
-    "work_mode": "yerinde",
-    "country": "Türkiye",
-    "deadline": "2026-11-08",
-    "opens_at": null,
-    "deadline_note": "Son başvuru 8 Kasım 2026 23:59'a uzatıldı. Etkinlik 13–14 Kasım 2026, 24 saat, İşler Teknoloji İstanbul Ofisi (Kağıthane).",
-    "apply_url": "https://islerteknoloji.com/hackathon",
-    "source_url": "https://islerteknoloji.com/hackathon",
-    "description": "Takımların 24 saatte eğitici bir oyun geliştirdiği game jam. Sayfada ödül bilgisi yer almıyor.",
-    "eligibility": "2–3 kişilik takımlar; her üyeden yarışma, staj ve projeleri içeren PDF CV isteniyor. Sayfada öğrencilik veya bölüm şartı belirtilmemiş.",
-    "tags": ["hackathon", "game jam", "eğitim teknolojileri", "istanbul"],
+    "tags": [
+      "hackathon",
+      "blockchain",
+      "solana",
+      "çevrim içi",
+      "ödüllü"
+    ],
     "verified_at": "2026-11-07"
   },
   {
@@ -81,7 +82,13 @@
     "source_url": "https://www.gtu.edu.tr/icerik/8/32041/display.aspx",
     "description": "Harvard HSIL'in sağlık sistemleri ve yapay zekâ temalı küresel hackathonu. GTÜ, BİKÜME ile birlikte Türkiye'den resmi merkez olarak katılıyor.",
     "eligibility": "2027 katılım koşulları henüz yayımlanmadı; takvim netleşince GTÜ ve Harvard duyurularından kontrol edilmeli.",
-    "tags": ["hackathon", "yapay zeka", "sağlık", "harvard", "kocaeli"],
+    "tags": [
+      "hackathon",
+      "yapay zeka",
+      "sağlık",
+      "harvard",
+      "kocaeli"
+    ],
     "verified_at": "2026-11-07"
   }
 ]

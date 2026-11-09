@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Hackathon'26 (Erzincan Yapay Zeka Hackathonu)",
+    "organization": "GDG on Campus Erzincan Binali Yıldırım Üniversitesi",
+    "category": "yarisma",
+    "location": "Erzincan",
+    "work_mode": "yerinde",
+    "country": "Türkiye",
+    "deadline": "2026-12-07",
+    "opens_at": "2026-11-08",
+    "deadline_note": "Son başvuru 7 Aralık 2026. Etkinlik 14–15 Aralık 2026: 14 Aralık'ta Milli Teknoloji Atölyesi'nde 12 saatlik geliştirme (10.00–22.00), 15 Aralık'ta Erdoğan Büyükkasap Kongre ve Kültür Merkezi'nde jüri sunumları ve ödül töreni.",
+    "apply_url": "https://gdgoncampusebyu.com/#basvur",
+    "source_url": "https://gdgoncampusebyu.com/",
+    "description": "GDG on Campus EBYÜ'nün Türkiye genelindeki üniversite öğrencilerine açık, yüz yüze hackathonu. Tema açılışta açıklanıyor; dil ve araç kısıtı yok, yapay zekâ araçları kullanılabiliyor. Kod herkese açık GitHub deposunda olmalı ve çalışan demo zorunlu. Ödüller 40.000 TL, 20.000 TL ve 10.000 TL (toplam 70.000 TL+), sponsor özel ödülleri ayrıca açıklanacak.",
+    "eligibility": "Türkiye'deki üniversitelerde okuyan ön lisans, lisans, yüksek lisans ve doktora öğrencileri. Bireysel başvuru yok; 3–5 kişilik takımlar, farklı üniversitelerden üyeler olabilir. Katılım ücretsiz; şehir dışından gelenlere konaklama verilmiyor, KYK ve misafirhane için yönlendirme yapılıyor.",
+    "tags": ["hackathon", "yapay zeka", "erzincan", "gdg", "ödüllü"],
+    "verified_at": "2026-11-09"
+  }
+]
